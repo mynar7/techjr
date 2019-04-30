@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{221:function(t){t.exports={data:{tag:{title:"Category Two",belongsTo:{edges:[{node:{title:"pilot",path:"/episodes/2019/pilot",date:"8. April 2019",content:"<ul>\n<li>It's a p0st</li>\n<li>It's amazing</li>\n</ul>\n"}}]}}}}}}]);
