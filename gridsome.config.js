@@ -1,7 +1,7 @@
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Tech Jr',
   siteUrl: 'https://techjr.dev',
-  pathPrefix: '/gridsome-test',
+  // pathPrefix: '/gridsome-test',
   plugins: [
     {
       use: '@gridsome/source-filesystem',

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{217:function(t){t.exports={data:{podcastEpisode:{content:"<ul>\n<li>It's a p0st</li>\n<li>It's amazing</li>\n</ul>\n",title:"ancient Ep",tags:[{path:"/episodes/tag/category-1",id:"Category 1"}]}}}}}]);
