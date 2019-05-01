@@ -1,16 +1,13 @@
-<template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+<template lang="pug">
+  div(class="layout")
+    header(v-if="$route.path !== '/'" class="header")
+      strong
+        g-link(to="/")
+          img(src="../assets/images/logo.png")
+      nav(class="nav")
+        g-link(class="nav__link" to="/") Home
+        g-link(class="nav__link" to="/about") About
+    slot
 </template>
 
 <static-query>
@@ -40,8 +37,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 40px 0;
   height: 80px;
+}
+
+.header img {
+  margin-left: -30px
 }
 
 .nav__link {
