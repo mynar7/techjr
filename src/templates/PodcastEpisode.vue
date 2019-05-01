@@ -10,6 +10,7 @@
         ul
           li(v-for="tag in this.$page.podcastEpisode.tags")
             g-link(:to="tag.path") {{tag.id}}
+        .timestamp {{$page.podcastEpisode.date | showDate}}
 </template>
 
 <page-query>
@@ -18,6 +19,7 @@ query Post ($path: String!){
     content
     title
     fileUrl
+    date
     tags {
       path
       id
@@ -31,6 +33,20 @@ export default {
   data() {
     return {
       s3Folder: 'https://s3.amazonaws.com/techjr/episodes/'
+    }
+  },
+  filters: {
+    showDate(val) {
+      const d = new Date(val)
+      const timeOptions = {
+        weekday: 'long',
+        month: 'numeric',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric'
+      }
+      return d.toLocaleString('en-us', timeOptions)
     }
   }
 }
@@ -49,4 +65,7 @@ audio
 
 .tags > *, ul > *
   margin-right 6px
+
+.timestamp
+  margin-left auto
 </style>

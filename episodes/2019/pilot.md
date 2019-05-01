@@ -1,6 +1,6 @@
 ---
 title: pilot
-date: 2019-04-08T10:00:00-04:00
+date: 2019-04-01T10:00:00-04:00
 excerpt: In this post, we talk about monkeys
 author: Lee Warrick
 tags: ['Category 1', 'Category Two']
