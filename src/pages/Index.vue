@@ -1,25 +1,29 @@
 <template lang="pug">
   Layout
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    g-image(alt="Example image" src="~/assets/images/logo.png" class="logo")
-
+    g-image.logo(alt="logo" src="~/assets/images/logo.png")
+    .icons
+      a.icon-bg(href="/rss.xml")
+        Rss.icon
     .description
 
       p.whiteText Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
 
-      p(class="home-links")
+      p.home-links
         g-link(to="/about") About Us
     RecentEpisodes
 </template>
 
 <script>
 import RecentEpisodes from '../components/RecentEpisodes'
+import Rss from '~/assets/images/rss'
 export default {
   components: {
-    RecentEpisodes
+    RecentEpisodes,
+    Rss
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>
@@ -32,4 +36,18 @@ export default {
   margin 0 auto
 .home-links a
   margin-right: 1rem;
+
+.icons
+  display flex
+  justify-content center
+  margin auto
+.icon
+  width 30px
+  height 30px
+  fill var(--white)
+.icon-bg
+  background var(--secondary)
+  border-radius 50%
+  padding 10px
+  height 30px
 </style>

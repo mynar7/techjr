@@ -48,6 +48,11 @@ export default {
       }
       return d.toLocaleString('en-us', timeOptions)
     }
+  },
+  metaInfo() {
+    return {
+      title: this.$page.podcastEpisode.title
+    }
   }
 }
 </script>
