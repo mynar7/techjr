@@ -42,7 +42,7 @@ module.exports = {
             'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
           },
           custom_elements: [
-            { 'itunes:subtitle': 'A show about everything' },
+            { 'itunes:subtitle': 'A Tech podcast by Juniors Devs, for Junior Devs!' },
             { 'itunes:explicit': 'no' },
             { 'itunes:author': 'Lee Warrick &amp; Edwin Otero' },
             { 'itunes:summary': 'Thinking of pursuing a career as a programmer? We did too, and then we did! Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.' },
@@ -94,7 +94,7 @@ module.exports = {
             title: node.title,
             description: node.excerpt,
             date: node.fields.date,
-            url: 'https://techjr.dev/episodes/' + node.year + '/' + node.slug,
+            url: 'https://techjr.dev/episodes/' + (new Date(node.date).getFullYear()) + '/' + node.slug,
             author: node.fields.author,
             categories: node.fields.tags,
             enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: (Number(node.fields.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
