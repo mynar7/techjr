@@ -1,10 +1,13 @@
 <template lang="pug">
-.card
-  .title-row
-    h2 {{episode.title}}
-    p {{ date }}
-  p {{episode.excerpt}}
-  g-link(:to="episode.path") Read More
+.card.episode-card
+  div
+    g-image.episode-card-logo(src="~/assets/images/techJR-v.png")
+  div
+    .title-row
+      h2 {{episode.title}}
+      p {{ date }}
+    p {{episode.excerpt}}
+    g-link(:to="episode.path") Read More
 </template>
 
 <script>
@@ -29,12 +32,23 @@ export default {
 </script>
 
 <style lang="stylus">
-.title-row
+.episode-card
   display flex
-  flex-wrap wrap
-  justify-content space-between
-  h2, p
-    // white-space nowrap
+  div
+    .episode-card-logo
+      width 100px
+      margin-top 9px
+      margin-right 24px
+      height auto
+  @media screen and (max-width 600px)
+    div
+      .episode-card-logo
+        display none
+  .title-row
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+
 </style>
 
 
