@@ -2,7 +2,7 @@
 .card.episode-card
   div
     g-image.episode-card-logo(src="~/assets/images/techJR-v.png")
-  div
+  div.episode-info
     .title-row
       h2 {{episode.title}}
       p {{ date }}
@@ -44,6 +44,8 @@ export default {
     div
       .episode-card-logo
         display none
+  div.episode-info
+    flex-grow 1
   .title-row
     display flex
     flex-wrap wrap
