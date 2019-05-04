@@ -1,14 +1,14 @@
 ---
-title: Please Sort these episodes correctly graphQL
-date: 2019-04-02T10:00:00-04:00
-excerpt: Yadda Yadda. The Site will be done soon
+title: Should you do a coding Bootcamp?
+date: 2019-04-15T22:00:00-04:00
+excerpt: In this Episode, Lee and Eddie talk about their experiences in a coding Bootcamp. Was it worth it? Do bootcamps deserve the ire of the tech industry?
 author: Lee Warrick &amp; Eddie Otero
-tags: ['Tech']
-showLength: 45:00
-fileUrl: techjr_ep-0_4-8-2019.mp3
-fileSize: 56000000
+tags: ['Bootcamp']
+showLength: 1:31:35
+fileUrl: TechJr_ep-1_4-15-2019.mp3
+fileSize: 167.7
 ---
 
-* It's a p0st
-* It's amazing
-# MAN this is a tough job
+Coding Bootcamps have garned a lot of hate and controversy in the tech industry. Developers public denounce and decry them, while companies continue to hire bootcamp graduates.
+
+Lee and Eddie explore their own experiences with them, as well as ruminate on whether or not they're worth your time and money.

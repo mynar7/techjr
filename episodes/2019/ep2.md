@@ -1,13 +1,16 @@
 ---
-title: bananaRAMA
-date: 2019-04-03T10:00:00-04:00
-excerpt: In this post, we talk about monkeys
+title: jQuery!
+date: 2019-04-22T10:00:00-04:00
+excerpt: In this episode, we talk about jQuery! Should you learn it or should we pronouce jQuery and let it rest in peace?
 author: Lee Warrick
-tags: ['Category 1']
-showLength: 45:00
-fileUrl: techjr_ep-0_4-8-2019.mp3
-fileSize: 56000000
+tags: ['jQuery']
+showLength: 44:47
+fileUrl: TechJr_ep-1_4-22-2019_jquery.mp3
+fileSize: 41
 ---
 
-* It's a p0st
-* It's amazing
+What's the deal with jQuery? One of the most notorious JavaScript frameworks out there, jQuery, was once at the top of the web development world.
+
+With the advent of Single-Page Applications (SPAs) however, jQuery has fallen out of favor.
+
+In this episode, Lee and Eddie talk about why jQuery was such a big deal, giggle about "sizzle", and ponder if jQuery still deserves a place on the web.

@@ -1,9 +1,11 @@
 <template lang="pug">
 Layout
-  h2 Banana
-  ul
-    li(v-for="episode in $page.tag.belongsTo.edges")
-      g-link(:to="episode.node.path") {{episode.node.title}}
+  .card
+    h2 Episodes tagged with "{{$page.tag.title}}"
+    ul
+      li(v-for="episode in $page.tag.belongsTo.edges")
+        g-link(:to="episode.node.path") {{episode.node.title}}
+        span.date &nbsp;- {{episode.node.date}}
 </template>
 
 <page-query>
@@ -16,7 +18,7 @@ query Tag ($id: String!) {
           ...on PodcastEpisode {
             title
             path
-            date (format: "D. MMMM YYYY")
+            date (format: "MMMM D, YYYY")
             content
           }
         }
@@ -25,3 +27,8 @@ query Tag ($id: String!) {
   }
 }
 </page-query>
+
+<style lang="stylus">
+.date
+  color var(--gray)
+</style>

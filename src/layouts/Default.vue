@@ -1,12 +1,19 @@
 <template lang="pug">
   div(class="layout")
-    header(v-if="$route.path !== '/'" class="header")
-      strong
-        g-link(to="/")
-          img(src="../assets/images/logo.png")
-      nav(class="nav")
-        g-link(class="nav__link" to="/") Home
-        g-link(class="nav__link" to="/about") About
+    header
+      g-link(to="/")
+        g-image.logo(alt="logo" src="~/assets/images/techJR-h.png")
+      .icons
+        a.icon-bg(href="/rss.xml")
+          Rss.icon
+    .description
+
+      p.whiteText Thinking of pursuing a career as a programmer? We did too, and then we did! Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
+
+      p.home-links
+        g-link(to="/") Episodes
+        g-link(to="/about") About Us
+
     slot
 </template>
 
@@ -18,34 +25,74 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+<script>
+import Rss from '~/assets/images/rss'
+export default {
+  components: {
+    Rss
+  }
 }
+</script>
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0;
-  height: 80px;
-}
+<style lang="stylus">
+body
+  font-family -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+  margin 0
+  padding 0
+  line-height 1.5
 
-.header img {
-  margin-left: -30px
-}
+.description
+  text-align center
 
-.nav__link {
-  margin-left: 20px;
-}
+.layout
+  max-width 760px
+  margin 0 auto
+  padding-left 20px
+  padding-right 20px
+
+.header
+  display flex
+  justify-content space-between
+  align-items center
+  height 120px
+
+.header img
+  min-width 150px
+  width 50%
+  height auto
+  margin-left -10px
+
+.nav__link
+  margin-left 20px
+
+.logo
+  display block
+  margin 15px auto
+  width 60%
+  min-width 250px
+  height auto
+
+.icons
+  display flex
+  justify-content center
+  margin auto
+.icon
+  width 60%
+  fill var(--white)
+.icon-bg
+  display flex
+  justify-content center
+  align-items center
+  background var(--secondary)
+  border-radius 50%
+  max-width 60px
+  max-height 60px
+  width 7.5vw
+  height 7.5vw
+  min-width 40px
+  min-height 40px
+
+p.home-links a
+  margin 10px
 </style>

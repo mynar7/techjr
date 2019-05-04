@@ -29,7 +29,7 @@ module.exports = {
           description: 'Thinking of pursuing a career as a programmer? We did too, and then we did! Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
           feed_url: 'https://techjr.dev/rss.xml',
           site_url: 'https://techjr.dev',
-          image_url: 'http://example.com/icon.png',
+          image_url: 'https://s3.amazonaws.com/techjr/images/techJR-v.png',
           // docs: 'http://example.com/rss/docs.html',
           managingEditor: 'leewarrick@gmail.com (Lee Warrick)',
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
@@ -57,7 +57,7 @@ module.exports = {
             {
               'itunes:image': {
                 _attr: {
-                  href: 'http://example.com/podcasts/everything/AllAboutEverything.jpg'
+                  href: 'https://s3.amazonaws.com/techjr/images/techJR-v.png'
                 }
               }
             },
@@ -97,14 +97,14 @@ module.exports = {
             url: 'https://techjr.dev/episodes/' + node.year + '/' + node.slug,
             author: node.fields.author,
             categories: node.fields.tags,
-            enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: node.fields.fileSize, type: 'audio/mpeg' }, // optional enclosure
+            enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: (Number(node.fields.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
             custom_elements: [
               { 'itunes:author': 'Lee Warrick &amp; Edwin Otero' },
-              { 'itunes:subtitle': 'A short primer on table spices' },
+              { 'itunes:subtitle': 'A Tech podcast by Juniors Devs, for Junior Devs!' },
               {
                 'itunes:image': {
                   _attr: {
-                    href: 'http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg'
+                    href: 'https://s3.amazonaws.com/techjr/images/techJR-v.png'
                   }
                 }
               },
