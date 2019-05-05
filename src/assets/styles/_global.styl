@@ -2,18 +2,27 @@
   --primary #005bc3
   --secondary #ff931e
   --primaryDark #016da9
-  --gray #5d6a79
-  --lightGray #a09c9c
-  --white #f7faff
-  --black #424549
+  --gray #304f73
+  --lightGray #8298b1
+  --white #f6f9fe
+  --black #052d5a
 
 body
   background-color var(--primary)
   color var(--black)
+  font-family 'Ubuntu', Arial ,sans-serif
+  letter-spacing 0.3px
+  font-size 18px
+  font-weight 300
+  margin 0
+  padding 0
+  line-height 1.5
 
 h1, h2, h3, h4, h5, h6
   margin 12px 0
   padding 0
+  font-size 1.8rem
+  font-weight 700
 
 li, ul
   margin 0
@@ -22,18 +31,15 @@ li, ul
 
 a
   color var(--secondary)
+  text-decoration none
+  font-weight 400
 
 .card
   background-color var(--white)
   padding 24px
   padding-top 12px
-  border-radius 0 0 3px 3px
+  border-radius 3px
   margin-bottom 24px
-  box-shadow 1px 2px 3px var(--gray)
-  border-top 3px solid var(--secondary)
-
-.whiteText
-  color var(--white)
-
-.whiteBg
-  background var(--white)
+  box-shadow 3px 6px 5px var(--gray)
+  @media screen and (max-width 600px)
+    border-top 6px solid var(--secondary)

@@ -8,9 +8,9 @@
           Rss.icon
     .description
 
-      p.whiteText Thinking of pursuing a career as a programmer? We did too, and then we did! Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
+      p Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
 
-      p.home-links
+      p.home-links.card
         g-link(to="/") Episodes
         g-link(to="/about") About Us
 
@@ -36,14 +36,10 @@ export default {
 
 
 <style lang="stylus">
-body
-  font-family -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
-  margin 0
-  padding 0
-  line-height 1.5
-
 .description
   text-align center
+  font-weight 400
+  color var(--white)
 
 .layout
   max-width 760px
@@ -93,6 +89,11 @@ body
   min-width 40px
   min-height 40px
 
-p.home-links a
-  margin 10px
+p.home-links
+  background-color var(--secondary)
+  padding 6px 0
+
+  a
+    color var(--white)
+    margin 10px
 </style>

@@ -10,7 +10,7 @@
           span Tags:
           ul
             li(v-for="tag in this.$page.podcastEpisode.tags")
-              g-link(:to="tag.path") {{tag.id}}
+              g-link.tag(:to="tag.path") {{tag.id}}
         .timestamp {{$page.podcastEpisode.date | showDate}}
 </template>
 
@@ -40,12 +40,13 @@ export default {
     showDate(val) {
       const d = new Date(val)
       const timeOptions = {
-        weekday: 'long',
-        month: 'numeric',
+        weekday: 'short',
+        month: 'long',
         day: 'numeric',
         year: 'numeric',
         hour: 'numeric',
-        minute: 'numeric'
+        minute: 'numeric',
+        timeZoneName: 'short'
       }
       return d.toLocaleString('en-us', timeOptions)
     }
@@ -67,6 +68,10 @@ audio
   height 30px
   margin 24px 0
 
+.tags
+  .tag
+    font-weight 400
+
 .tags, .tags div, ul
   display flex
   flex-wrap wrap
@@ -74,5 +79,11 @@ audio
 
 .tags > * > *, ul > *
   margin-right 6px
+
+.timestamp
+  color var(--lightGray)
+  font-weight 400
+  font-size 0.9rem
+  text-transform uppercase
 
 </style>
