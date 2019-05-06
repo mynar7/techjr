@@ -29,7 +29,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.link.push({
     rel: 'manifest',
-    href: './site.manifest'
+    href: './site.webmanifest'
   })
   head.meta.push({
     name: 'keywords',
