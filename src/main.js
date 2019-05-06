@@ -38,11 +38,11 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.link.push({
     name: 'msapplication-Tilecolor',
-    href: '#da532c'
+    content: '#da532c'
   })
   head.link.push({
     name: 'theme-color',
-    href: '#005bc3'
+    content: '#005bc3'
   })
   head.meta.push({
     name: 'keywords',
