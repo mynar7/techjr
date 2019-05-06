@@ -12,8 +12,24 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.link.push({
     rel: 'icon',
-    type: 'image/x-icon',
-    href: './favicon.ico'
+    type: 'image/png',
+    sizes: "32x32",
+    href: './favicon-32x32.png'
+  })
+  head.link.push({
+    rel: 'icon',
+    type: 'image/png',
+    sizes: "16x16",
+    href: './favicon-16x16.png'
+  })
+  head.link.push({
+    rel: 'apple-touch-icon',
+    sizes: "180x180",
+    href: './apple-touch-icon.png'
+  })
+  head.link.push({
+    rel: 'manifest',
+    href: './site.manifest'
   })
   head.meta.push({
     name: 'keywords',
