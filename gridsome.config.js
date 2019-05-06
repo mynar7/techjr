@@ -57,7 +57,7 @@ module.exports = {
             {
               'itunes:image': {
                 _attr: {
-                  href: 'https://s3.amazonaws.com/techjr/images/techJR-v.png'
+                  href: 'https://techjr.dev/techJR-v.png'
                 }
               }
             },
@@ -100,11 +100,11 @@ module.exports = {
             enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: (Number(node.fields.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
             custom_elements: [
               { 'itunes:author': 'Lee Warrick &amp; Edwin Otero' },
-              { 'itunes:subtitle': 'A Tech podcast by Juniors Devs, for Junior Devs!' },
+              { 'itunes:subtitle': node.excerpt },
               {
                 'itunes:image': {
                   _attr: {
-                    href: 'https://s3.amazonaws.com/techjr/images/techJR-v.png'
+                    href: 'https://techjr.dev/techJR-v.png'
                   }
                 }
               },
