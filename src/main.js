@@ -44,6 +44,10 @@ export default function (Vue, { router, head, isClient }) {
     content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
   })
   head.meta.push({
+    name: 'description',
+    content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
+  })
+  head.meta.push({
     property: 'og:image',
     content: 'https://techjr.dev/techJR-v.png'
   })
