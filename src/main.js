@@ -11,6 +11,11 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://fonts.googleapis.com/css?family=Ubuntu:300,400,700'
   })
   head.link.push({
+    rel: 'apple-touch-icon',
+    sizes: "180x180",
+    href: './apple-touch-icon.png'
+  })
+  head.link.push({
     rel: 'icon',
     type: 'image/png',
     sizes: "32x32",
@@ -23,13 +28,21 @@ export default function (Vue, { router, head, isClient }) {
     href: './favicon-16x16.png'
   })
   head.link.push({
-    rel: 'apple-touch-icon',
-    sizes: "180x180",
-    href: './apple-touch-icon.png'
-  })
-  head.link.push({
     rel: 'manifest',
     href: './site.webmanifest'
+  })
+  head.link.push({
+    rel: 'mask-icon',
+    href: './safari-pinned-tab.svg',
+    color: '#5bbad5'
+  })
+  head.link.push({
+    name: 'msapplication-Tilecolor',
+    href: '#da532c'
+  })
+  head.link.push({
+    name: 'theme-color',
+    href: '#005bc3'
   })
   head.meta.push({
     name: 'keywords',
