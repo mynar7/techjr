@@ -1,16 +1,17 @@
 <template lang="pug">
   Layout
-    .card
+    .card.podcast-episode
       h1 {{$page.podcastEpisode.title}}
-      div(v-html="$page.podcastEpisode.content")
+      div.content(v-html="$page.podcastEpisode.content")
       //- h4 {{this.$route.params}}
       audio(:src="s3Folder + this.$page.podcastEpisode.fileUrl" controls="true")
-      .tags
+      .tags-container
         div
           span Tags:
-          ul
-            li(v-for="tag in this.$page.podcastEpisode.tags")
-              g-link.tag(:to="tag.path") {{tag.id}}
+          ul.tags
+            li(v-for="(tag, index) in this.$page.podcastEpisode.tags")
+              g-link.tag.link(:to="tag.path") {{tag.id}}
+              span {{($page.podcastEpisode.tags && index !== $page.podcastEpisode.tags.length - 1 ? ',' : '' )}}
         .timestamp {{$page.podcastEpisode.date | showDate}}
 </template>
 
@@ -60,7 +61,33 @@ export default {
 </script>
 
 
-<style lang="stylus" scoped>
+<style lang="stylus">
+.card.podcast-episode
+  .content
+    li, ul
+      list-style-type disc
+    ul
+      padding 0 24px
+
+    a
+      color var(--secondaryDark)
+      position relative
+      &:hover:after
+        opacity 1
+        width 100%
+      &:after
+        background var(--secondaryDark)
+        content ""
+        height 2px
+        width 0%
+        position absolute
+        bottom -3px
+        left 0
+        opacity 0
+        transition opacity 0.3s, width 0.3s
+    hr
+      border 1px solid var(--primaryLight)
+
 audio
   filter sepia() saturate(1000%) brightness(45%) hue-rotate(140deg) invert(1)
   max-width 450px
@@ -72,12 +99,12 @@ audio
   .tag
     font-weight 400
 
-.tags, .tags div, ul
+.tags-container, .tags-container>div, ul.tags
   display flex
   flex-wrap wrap
   justify-content space-between
 
-.tags > * > *, ul > *
+.tags-container > * > *, ul.tags > *
   margin-right 6px
 
 .timestamp

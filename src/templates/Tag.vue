@@ -4,7 +4,7 @@ Layout
     h2 Episodes tagged with "{{$page.tag.title}}"
     ul
       li(v-for="episode in $page.tag.belongsTo.edges")
-        g-link(:to="episode.node.path") {{episode.node.title}}
+        g-link.link(:to="episode.node.path") {{episode.node.title}}
         span.date &nbsp;- {{episode.node.date}}
 </template>
 

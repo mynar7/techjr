@@ -6,9 +6,10 @@
   div.episode-info
     //- .title-row
     p.date {{ date }}
-    h2.title {{episode.title}}
+    g-link(:to="episode.path")
+      h2.title {{episode.title}}
     p {{episode.excerpt}}
-    g-link(:to="episode.path") Read More
+    g-link.link(:to="episode.path") Listen
 </template>
 
 <script>
@@ -60,7 +61,6 @@ export default {
       display flex
       flex-wrap wrap
       justify-content space-between
-
 </style>
 
 

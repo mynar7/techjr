@@ -1,15 +1,18 @@
 :root
   --primary #005bc3
+  --primaryLight #83afe2
   --secondary #ff931e
+  --secondaryLight #fadcbb
+  --secondaryDark #ee7c00
   --primaryDark #016da9
   --gray #304f73
   --lightGray #8298b1
-  --white #f6f9fe
+  --white #f0f5ff
   --black #052d5a
 
 body
   background-color var(--primary)
-  background-image url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238298b1' fill-opacity='0.3'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+  background-image url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236d96c5' fill-opacity='0.3'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
   color var(--black)
   font-family 'Ubuntu', Arial ,sans-serif
   letter-spacing 0.3px
@@ -31,9 +34,9 @@ li, ul
   list-style none
 
 a
-  color var(--secondary)
   text-decoration none
   font-weight 400
+  color inherit
 
 .card
   background-color var(--white)
@@ -44,3 +47,20 @@ a
   box-shadow 3px 6px 5px var(--gray)
   @media screen and (max-width 600px)
     border-top 6px solid var(--secondary)
+
+.link
+  color var(--secondaryDark)
+  position relative
+  &:hover:after
+    opacity 1
+    width 100%
+  &:after
+    background var(--secondaryDark)
+    content ""
+    height 2px
+    width 0%
+    position absolute
+    bottom -3px
+    left 0
+    opacity 0
+    transition opacity 0.3s, width 0.3s
