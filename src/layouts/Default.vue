@@ -105,6 +105,7 @@ export default {
 
 p.home-links
   background-color var(--secondary)
+  border none
   padding 6px 0
   transition background-color 0.3s
   &:hover >
