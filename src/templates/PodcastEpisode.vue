@@ -20,8 +20,10 @@ query Post ($path: String!){
   podcastEpisode (path: $path) {
     content
     title
+    excerpt
     fileUrl
     date
+    path
     tags {
       path
       id
@@ -54,7 +56,15 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.podcastEpisode.title
+      title: this.$page.podcastEpisode.title,
+      meta: [
+        { name: 'description', content: this.$page.podcastEpisode.excerpt },
+        { property: 'og:title', content: this.$page.podcastEpisode.title },
+        { property: 'og:img', content: 'https://techjr.dev/techJR-v.png' },
+        { property: 'og:url', content: 'https://techjr.dev' + this.$page.podcastEpisode.path },
+        { property: 'og:description', content: this.$page.podcastEpisode.excerpt },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ]
     }
   }
 }
