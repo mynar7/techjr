@@ -60,7 +60,7 @@ export default {
       meta: [
         { name: 'description', content: this.$page.podcastEpisode.excerpt },
         { property: 'og:title', content: this.$page.podcastEpisode.title },
-        { property: 'twitter:image', content: 'https://techjr.dev/techJR-h.png' },
+        { property: 'twitter:image', content: 'https://techjr.dev/techJR-h-sm.png' },
         { property: 'twitter:alt:image', content: 'Tech Jr Logo' },
         { property: 'og:url', content: 'https://techjr.dev' + this.$page.podcastEpisode.path },
         { property: 'og:description', content: this.$page.podcastEpisode.excerpt },
