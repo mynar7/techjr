@@ -68,4 +68,12 @@ export default function (Vue, { router, head, isClient }) {
     property: 'og:url',
     content: 'https://techjr.dev'
   })
+  head.meta.push({
+    property: 'twitter:site',
+    content: '@TechJrPodcast'
+  })
+  head.meta.push({
+    property: 'twitter:creater',
+    content: '@leewarrickjr'
+  })
 }
