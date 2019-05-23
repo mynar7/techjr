@@ -45,7 +45,7 @@ module.exports = {
           custom_elements: [
             { 'itunes:subtitle': 'A Tech podcast by Juniors Devs, for Junior Devs!' },
             { 'itunes:explicit': 'no' },
-            { 'itunes:author': 'Lee Warrick & Edwin Otero' },
+            { 'itunes:author': 'Lee Warrick and Edwin Otero' },
             { 'itunes:summary': 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.' },
             {
               'itunes:owner': [
@@ -100,7 +100,7 @@ module.exports = {
             categories: node.fields.tags,
             enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: (Number(node.fields.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
             custom_elements: [
-              { 'itunes:author': 'Lee Warrick & Edwin Otero' },
+              { 'itunes:author': 'Lee Warrick and Edwin Otero' },
               { 'itunes:subtitle': node.excerpt },
               {
                 'itunes:image': {
