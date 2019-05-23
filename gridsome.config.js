@@ -33,7 +33,7 @@ module.exports = {
           // docs: 'http://example.com/rss/docs.html',
           managingEditor: 'leewarrick@gmail.com (Lee Warrick)',
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
-          copyright: '2019 Lee Warrick &amp; Edwin Otero',
+          copyright: '2019 Lee Warrick and Edwin Otero',
           language: 'en-us',
           categories: ['Technology', 'Software How-To', 'Tech News'],
           // pubDate: 'May 19, 2019 04:00:00 GMT',
