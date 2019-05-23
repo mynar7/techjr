@@ -29,14 +29,15 @@ module.exports = {
           description: 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
           feed_url: 'https://techjr.dev/rss.xml',
           site_url: 'https://techjr.dev',
-          image_url: 'https://s3.amazonaws.com/techjr/images/techJR-v.png',
+          image_url: 'https://techjr.dev/techJR-v.png',
           // docs: 'http://example.com/rss/docs.html',
           managingEditor: 'leewarrick@gmail.com (Lee Warrick)',
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
-          copyright: '2019 Lee Warrick',
+          copyright: '2019 Lee Warrick &amp; Edwin Otero',
           language: 'en-us',
           categories: ['Technology', 'Software How-To', 'Tech News'],
-          pubDate: 'May 20, 2012 04:00:00 GMT',
+          // pubDate: 'May 19, 2019 04:00:00 GMT',
+          pubDate: 'April 8, 2019 14:00:00 GMT',
           ttl: '60',
           custom_namespaces: {
             'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
@@ -45,7 +46,7 @@ module.exports = {
             { 'itunes:subtitle': 'A Tech podcast by Juniors Devs, for Junior Devs!' },
             { 'itunes:explicit': 'no' },
             { 'itunes:author': 'Lee Warrick & Edwin Otero' },
-            { 'itunes:summary': 'Thinking of pursuing a career as a programmer? ! Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.' },
+            { 'itunes:summary': 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.' },
             {
               'itunes:owner': [
                 { 'itunes:name': 'Lee Warrick' },
