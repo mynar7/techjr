@@ -76,4 +76,16 @@ export default function (Vue, { router, head, isClient }) {
     property: 'twitter:creater',
     content: '@leewarrickjr'
   })
+  head.meta.push({
+    name: 'twitter:image',
+    content: 'https://techjr.dev/techJR_logo-card.jpg'
+  })
+  head.meta.push({
+    name: 'twitter:alt:image',
+    content: 'Tech Jr Logo'
+  })
+  head.meta.push({
+    name: 'twitter:card',
+    content: 'summary_large_image'
+  })
 }

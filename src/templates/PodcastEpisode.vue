@@ -62,9 +62,6 @@ export default {
         { property: 'og:title', content: this.$page.podcastEpisode.title },
         { property: 'og:url', content: 'https://techjr.dev' + this.$page.podcastEpisode.path },
         { property: 'og:description', content: this.$page.podcastEpisode.excerpt },
-        { name: 'twitter:image', content: 'https://techjr.dev/techJR-h-sm.png' },
-        { name: 'twitter:alt:image', content: 'Tech Jr Logo' },
-        { name: 'twitter:card', content: 'summary_large_image' }
       ]
     }
   }
