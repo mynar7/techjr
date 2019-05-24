@@ -4,11 +4,13 @@
       g-link(to="/")
         g-image.logo(alt="logo" src="~/assets/images/techJR-h.png")
       .icons
-        a.icon-bg(href="#")
-          Apple.icon
-        a.icon-bg(href="#")
+        //- a.icon-bg(href="#")
+        //-   Apple.icon
+        a.icon-bg(href="https://www.google.com/podcasts?feed=aHR0cHM6Ly90ZWNoanIuZGV2L3Jzcy54bWw%3D" target="_BLANK")
+          GooglePodcasts.icon
+        a.icon-bg(href="https://open.spotify.com/show/4jFt5Yjfs1jmimj52S2Wve" target="_BLANK")
           Spotify.icon
-        a.icon-bg(href="/rss.xml")
+        a.icon-bg(href="/rss.xml" target="_BLANK")
           Rss.icon
     .description
 
@@ -32,12 +34,14 @@ query {
 <script>
 import Rss from '~/assets/images/rss'
 import Apple from '~/assets/images/applePodcasts'
+import GooglePodcasts from '~/assets/images/googlePodcasts'
 import Spotify from '~/assets/images/spotify'
 export default {
   components: {
     Rss,
     Apple,
-    Spotify
+    Spotify,
+    GooglePodcasts
   }
 }
 </script>
