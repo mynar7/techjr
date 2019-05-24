@@ -4,8 +4,8 @@
       g-link(to="/")
         g-image.logo(alt="logo" src="~/assets/images/techJR-h.png")
       .icons
-        //- a.icon-bg(href="#")
-        //-   Apple.icon
+        a.icon-bg(href="https://podcasts.apple.com/us/podcast/tech-jr/id1465115096")
+          Apple.icon
         a.icon-bg(href="https://www.google.com/podcasts?feed=aHR0cHM6Ly90ZWNoanIuZGV2L3Jzcy54bWw%3D" target="_BLANK")
           GooglePodcasts.icon
         a.icon-bg(href="https://open.spotify.com/show/4jFt5Yjfs1jmimj52S2Wve" target="_BLANK")
