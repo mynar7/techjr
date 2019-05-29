@@ -1,6 +1,6 @@
 ---
 title: 'Dev Interview: Scott Tolinski'
-date: 2019-05-28T12:54:00-04:00
+date: 2019-05-29T14:00:00-04:00
 excerpt: Special guest Scott Tolinski of Level Up Tutorials and the Syntax podcast joins us to talk about his journey, business, and to answer all of your listener submitted questions!
 author: Lee Warrick and Edwin Otero
 tags: ['interviews', 'Scott Tolinski']
