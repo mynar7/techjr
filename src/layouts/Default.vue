@@ -6,8 +6,10 @@
       .icons
         a.icon-bg(href="https://podcasts.apple.com/us/podcast/tech-jr/id1465115096" target="_BLANK")
           Apple.icon
-        a.icon-bg(href="https://www.google.com/podcasts?feed=aHR0cHM6Ly90ZWNoanIuZGV2L3Jzcy54bWw%3D" target="_BLANK")
+        a.icon-bg(href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Iqm76lldc555i6v2taar7d4fd3a?t%3DTech_Jr%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16" target="_BLANK")
           GooglePodcasts.icon
+        a.icon-bg(href="https://www.google.com/podcasts?feed=aHR0cHM6Ly90ZWNoanIuZGV2L3Jzcy54bWw%3D" target="_BLANK")
+          GooglePlay.icon
         a.icon-bg(href="https://open.spotify.com/show/4jFt5Yjfs1jmimj52S2Wve" target="_BLANK")
           Spotify.icon
         a.icon-bg(href="/rss.xml" target="_BLANK")
@@ -34,14 +36,16 @@ query {
 <script>
 import Rss from '~/assets/images/rss'
 import Apple from '~/assets/images/applePodcasts'
-import GooglePodcasts from '~/assets/images/googlePodcasts'
+import GooglePlay from '~/assets/images/googlePodcasts'
+import GooglePodcasts from '~/assets/images/googlePlay'
 import Spotify from '~/assets/images/spotify'
 export default {
   components: {
     Rss,
     Apple,
     Spotify,
-    GooglePodcasts
+    GooglePodcasts,
+    GooglePlay,
   }
 }
 </script>

@@ -76,7 +76,11 @@ export default {
       list-style-type disc
     ul
       padding 0 24px
-
+      p
+        margin 0
+    li
+      li
+        list-style-type circle
     a
       color var(--secondaryDark)
       position relative
@@ -98,7 +102,7 @@ export default {
 
 audio
   filter sepia() saturate(1000%) brightness(45%) hue-rotate(140deg) invert(1)
-  max-width 450px
+  // max-width 450px
   width 100%
   height 30px
   margin 24px 0
