@@ -21,6 +21,48 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        // cacheTime: 600000, // default
+        exclude: ['/episodes/tag/*'],
+        config: {
+          '/': {
+            changefreq: 'weekly',
+            priority: 1.0
+          },
+          '/episodes/**/*': {
+            changefreq: 'weekly',
+            priority: 0.8
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.5
+          }
+        },
+        // staticUrls: [
+        //   {
+        //     url: '/images/',
+        //     img: [
+        //       {
+        //         url: '/images/img1.jpg',
+        //         caption: 'Image One',
+        //         title: 'The Title of Image One',
+        //         geoLocation: 'Trondheim, Norway',
+        //         license: 'https://creativecommons.org/licenses/by/4.0/'
+        //       },
+        //       {
+        //         url: '/images/img2.jpg',
+        //         caption: 'Image Two',
+        //         title: 'The Title of Image Two',
+        //         geoLocation: 'Trondheim, Norway',
+        //         license: 'https://creativecommons.org/licenses/by/4.0/'
+        //       }
+        //     ]
+        //   }
+        // ]
+      }
+    },
+    {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'PodcastEpisode',
