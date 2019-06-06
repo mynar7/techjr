@@ -1,6 +1,6 @@
 ---
 title: 'On Music and Development'
-date: 2019-06-06T10:00:00-04:00
+date: 2019-06-06T12:07:00-04:00
 excerpt: Lee and Eddie discuss similarities between musicians and developers, and how the journey of learning music maps to that of a budding developer.
 author: Lee Warrick and Edwin Otero
 tags: ['Music', 'Bootcamp', 'Impostor Syndrome']

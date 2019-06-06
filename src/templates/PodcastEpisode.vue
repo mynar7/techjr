@@ -147,7 +147,7 @@ export default {
               // bitrate: "64k",
               contentSize: String((Number(this.$page.podcastEpisode.fileSize) * 1000 * 1000)),
               contentUrl: this.s3Folder + this.$page.podcastEpisode.fileUrl,
-              duration: this.$page.podcastEpisode.showLength,
+              duration: String(this.$page.podcastEpisode.showLength),
               // embedUrl:
               //   "https://devmode.fm/player-card/webpack-inside-out-with-sean-larkin",
               encodingFormat: "audio/mpeg",
