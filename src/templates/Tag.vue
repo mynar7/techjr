@@ -38,7 +38,7 @@ query Tag ($id: String!) {
 export default {
   metaInfo() {
     return {
-      title: 'Episodes tagged: ' + `"${this.$page.tag.title}" - Tech Jr Podcast`,
+      title: 'Episodes tagged: ' + `"${this.$page.tag.title}"`,
       meta: [
         {
           name: "description",
