@@ -54,18 +54,21 @@ export default function (Vue, { router, head, isClient }) {
     name: 'keywords',
     content: 'HTML, CSS, JavaScript, junior developer, Web Development, junior developer podcast'
   })
-  // head.meta.push({
-  //   property: 'og:title',
-  //   content: 'The TechJr Podcast'
-  // })
-  // head.meta.push({
-  //   property: 'og:description',
-  //   content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
-  // })
-  // head.meta.push({
-  //   name: 'description',
-  //   content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
-  // })
+  head.meta.push({
+    property: 'og:title',
+    key: 'og:title',
+    content: 'The TechJr Podcast'
+  })
+  head.meta.push({
+    property: 'og:description',
+    key: 'og:description',
+    content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
+  })
+  head.meta.push({
+    name: 'description',
+    key: 'description',
+    content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
+  })
   head.meta.push({
     property: 'og:image',
     content: 'https://techjr.dev/techJR-v.png'
