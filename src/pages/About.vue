@@ -13,7 +13,24 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About us'
+    title: 'About the show',
+    meta: [
+        {
+          name: "description",
+          content:
+            "Lee Warrick and Edwin Otero are Orlando-based web developers that are looking to give back to the tech community. We share our personal experiences as Junior Devs as well as interview industry professionals to answer listeners' and our own questions."
+        },
+        { property: "og:title", content: "About the show - Tech Jr Podcast" },
+        {
+          property: "og:url",
+          content: "https://techjr.dev"
+        },
+        {
+          property: "og:description",
+          content:
+            "Lee Warrick and Edwin Otero are Orlando-based web developers that are looking to give back to the tech community. We share our personal experiences as Junior Devs as well as interview industry professionals to answer listeners' and our own questions."
+        }
+      ],
   }
 }
 </script>

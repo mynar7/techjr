@@ -9,7 +9,7 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     type: 'application/rss+xml',
     rel: 'alternate',
-    title: 'Tech Jr',
+    title: 'Tech Jr Podcast',
     href: 'https://techjr.dev/rss.xml'
   })
   head.link.push({
@@ -19,27 +19,27 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'apple-touch-icon',
     sizes: "180x180",
-    href: './apple-touch-icon.png'
+    href: '/apple-touch-icon.png'
   })
   head.link.push({
     rel: 'icon',
     type: 'image/png',
     sizes: "32x32",
-    href: './favicon-32x32.png'
+    href: '/favicon-32x32.png'
   })
   head.link.push({
     rel: 'icon',
     type: 'image/png',
     sizes: "16x16",
-    href: './favicon-16x16.png'
+    href: '/favicon-16x16.png'
   })
   head.link.push({
     rel: 'manifest',
-    href: './site.webmanifest'
+    href: '/site.webmanifest'
   })
   head.link.push({
     rel: 'mask-icon',
-    href: './safari-pinned-tab.svg',
+    href: '/safari-pinned-tab.svg',
     color: '#5bbad5'
   })
   head.link.push({
@@ -52,20 +52,20 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.meta.push({
     name: 'keywords',
-    content: 'HTML,CSS,JavaScript,Junior Developers,Web Development'
+    content: 'HTML, CSS, JavaScript, junior developer, Web Development, junior developer podcast'
   })
-  head.meta.push({
-    property: 'og:title',
-    content: 'The TechJr Podcast'
-  })
-  head.meta.push({
-    property: 'og:description',
-    content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
-  })
-  head.meta.push({
-    name: 'description',
-    content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
-  })
+  // head.meta.push({
+  //   property: 'og:title',
+  //   content: 'The TechJr Podcast'
+  // })
+  // head.meta.push({
+  //   property: 'og:description',
+  //   content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
+  // })
+  // head.meta.push({
+  //   name: 'description',
+  //   content: 'Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.'
+  // })
   head.meta.push({
     property: 'og:image',
     content: 'https://techjr.dev/techJR-v.png'

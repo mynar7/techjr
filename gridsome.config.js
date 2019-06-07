@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'Tech Jr',
+  siteName: 'Tech Jr Podcast',
   siteUrl: 'https://techjr.dev',
   // pathPrefix: '/gridsome-test',
   plugins: [

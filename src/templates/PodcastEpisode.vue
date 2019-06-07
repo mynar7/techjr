@@ -62,7 +62,7 @@ export default {
       title: this.$page.podcastEpisode.title,
       meta: [
         { name: "description", content: this.$page.podcastEpisode.excerpt },
-        { property: "og:title", content: this.$page.podcastEpisode.title },
+        { property: "og:title", content: this.$page.podcastEpisode.title + ' - Tech Jr Podcast'},
         {
           property: "og:url",
           content: "https://techjr.dev" + this.$page.podcastEpisode.path
