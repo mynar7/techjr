@@ -17,7 +17,6 @@ In this episode, Chad shares his experience as a Developer and Career Coach and 
 <hr />
 
 Show Notes:
-
 * 1:20 - Advice for Career Changers
 * 3:20 - Having an Abundance Mindset
 * 5:40 - Networking and Meetups
@@ -31,8 +30,8 @@ Show Notes:
 * 34:25 - Negotiating Salary
 * 47:00 - 'Do you have any questions for us?' The end of the interview
 * 54:04 - Nerd Minute!
-* 62:00 - Career Design Patterns
+* 1:02:00 - Career Design Patterns
   * [Website](https://careerdesignpatterns.com)
   * [Podcast](https://careerdesignpatterns.com/podcast/)
-  * [The Bryan Interview](https://careerdesignpatterns.com/interview)
+  * [The Bryan Interview Advice](https://careerdesignpatterns.com/interview)
   * [Twitter](https://twitter.com/careerpatterns)
