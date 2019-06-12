@@ -39,8 +39,8 @@ Show Notes:
 * 50:00 - Scott talks about his hobbies. Breakdancing, Kung-Fu Movies, and video games
   * The 36th Chamber of Shaolin [Netflix](https://www.netflix.com/title/70062784)
   * The Five Deadly Venoms [Netflix](https://www.netflix.com/title/60001377)
-* 59:30 - Scott describes an awesome puzzle game called [Baba is You](https://hempuli.com/baba/)
-* 1:01:00 - Scott's origins as a Developer
+* 1:00:00 - Scott describes an awesome puzzle game called [Baba is You](https://hempuli.com/baba/)
+* 1:01:45 - Scott's origins as a Developer
 * 1:07:00 - How would Scott break into the Tech Industry today?
-* 1:13:00 - Scott Shamelessly Plugs [Level Up Tutorials](https://leveluptutorials.com)
-* 1:16:00 - Nerd Minute! Scott weighs in on Game of Thrones and talks Mario Maker 2
+* 1:13:32 - Scott Shamelessly Plugs [Level Up Tutorials](https://leveluptutorials.com)
+* 1:16:27 - Nerd Minute! Scott weighs in on Game of Thrones and talks Mario Maker 2

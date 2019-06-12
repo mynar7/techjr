@@ -3,8 +3,8 @@
     .card.podcast-episode
       h1 {{$page.podcastEpisode.title}}
       p.listen Listen to the episode:
-      audio(:src="s3Folder + $page.podcastEpisode.fileUrl" controls="true")
-      div.content(v-html="$page.podcastEpisode.content")
+      audio(:src="s3Folder + $page.podcastEpisode.fileUrl" controls="true" ref="episodeAudioElement")
+      div.content(v-html="$page.podcastEpisode.content" ref="contentContainer")
       //- h4 {{this.$route.params}}
       .tags-container
         div
@@ -42,6 +42,23 @@ export default {
       s3Folder: "https://s3.amazonaws.com/techjr/episodes/"
     };
   },
+  mounted() {
+    // const timeRegex = /(([0-9][0-9]:)([0-5][0-9]:[0-5][0-9])|(([0-5]|)[0-9]:[0-5][0-9]))/gm
+    const timeRegex = /((([0-9]:)|([0-9][0-9]:))([0-5][0-9]:[0-5][0-9])|(([0-5]|)[0-9]:[0-5][0-9]))/gm
+    const liTags = this.$refs.contentContainer.querySelectorAll('li')
+    Array.from(liTags)
+    .filter(li => li.innerText.match(timeRegex))
+    .forEach(li => {
+      const timeStr = li.textContent.split(' -')[0]
+      li.innerHTML = li.innerHTML.replace(timeRegex, '')
+      const pTag = li.querySelector('p')
+      const link = document.createElement('a')
+      link.textContent = timeStr
+      link.href = '#'
+      link.onclick = () => this.jumpToTime(timeStr)
+      pTag ? pTag.prepend(link) : li.prepend(link)
+    })
+  },
   filters: {
     showDate(val) {
       const d = new Date(val);
@@ -55,6 +72,27 @@ export default {
         timeZoneName: "short"
       };
       return d.toLocaleString("en-us", timeOptions);
+    }
+  },
+  methods: {
+    jumpToTime(timeStr) {
+      const seconds = this.convertStrToSeconds(timeStr)
+      this.$refs.episodeAudioElement.currentTime = seconds
+    },
+    convertStrToSeconds(timeStr) {
+      const timesArr = timeStr.split(':').map(str => Number(str))
+      let seconds
+      let minutes
+      let hours
+      if (timesArr.length === 2) {
+        seconds = timesArr[1]
+        minutes = timesArr[0]
+      } else {
+        seconds = timesArr[2]
+        minutes = timesArr[1]
+        hours = timesArr[0]
+      }
+      return hours ? seconds + (minutes * 60) + (hours * 60 * 60) : seconds + (minutes * 60)
     }
   },
   metaInfo() {
@@ -264,7 +302,7 @@ audio
 .tags-container, .tags-container>div, ul.tags
   display flex
   flex-wrap wrap
-  justify-content space-between
+  // justify-content space-between
 
 .tags-container > * > *, ul.tags > *
   margin-right 6px

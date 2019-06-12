@@ -12,6 +12,10 @@
           GooglePlay.icon
         a.icon-bg(href="https://open.spotify.com/show/4jFt5Yjfs1jmimj52S2Wve" target="_BLANK")
           Spotify.icon
+        a.icon-bg(href="https://pca.st/podcast/c60819a0-645a-0137-f267-1d245fc5f9cf" target="_BLANK")
+          PocketCasts.icon
+        a.icon-bg(href="https://overcast.fm/itunes1465115096/tech-jr" target="_BLANK")
+          Overcast.icon
         a.icon-bg(href="/rss.xml" target="_BLANK")
           Rss.icon
     .description
@@ -39,6 +43,8 @@ import Apple from '~/assets/images/applePodcasts'
 import GooglePlay from '~/assets/images/googlePodcasts'
 import GooglePodcasts from '~/assets/images/googlePlay'
 import Spotify from '~/assets/images/spotify'
+import PocketCasts from '~/assets/images/pocketcasts'
+import Overcast from '~/assets/images/overcast'
 export default {
   components: {
     Rss,
@@ -46,6 +52,8 @@ export default {
     Spotify,
     GooglePodcasts,
     GooglePlay,
+    Overcast,
+    PocketCasts,
   }
 }
 </script>
