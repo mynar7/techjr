@@ -1,12 +1,12 @@
 ---
 title: 'Career Coach Chad Bostick on Getting Hired as a Junior Developer'
-date: 2019-06-12T12:07:00-04:00
+date: 2019-06-12T09:50:00-04:00
 excerpt: Developer Career Coach Chad Bostick joins us to talk about how to get hired as a junior dev with no experience, resume tips, salary negotiations, and more!
 author: Lee Warrick and Edwin Otero
 tags: ['Resumes', 'Interviews', 'Getting Hired', 'Salary Negotiations', 'Chad Bostick']
-showLength: 55:50
-fileUrl: TechJr_ep-6_6-6-19.mp3
-fileSize: 81.5
+showLength: 1:08:40
+fileUrl: 007_TechJr_ChadBostick.mp3
+fileSize: 106.1
 ---
 
 Getting hired as a junior dev is tough. Companies don't want to place their bets on a developer with no formal experience when they're trying to iterate quickly and get things done.
@@ -23,7 +23,7 @@ Show Notes:
   * Orlando Developers: [Meetup Page](https://www.meetup.com/OrlandoDevs/), [Website](https://orlandodevs.com/)
   * Lee and Eddie's meetup: [Meetup Page](https://meetup.com/project-code-experience), [YouTube](https://www.youtube.com/channel/UCLcLZk5Ki69EcwlLzDYbnXQ)
 * 8:40 - Advice for Introverts and Dealing with Social Anxiety
-* 15:20 - Giving Lightning Talks
+* 15:10 - Giving Lightning Talks
 * 17:26 - Resume content
 * 22:40 - Should you stylize your resume?
 * 28:30 - Portfolio sites
