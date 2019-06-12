@@ -97,6 +97,7 @@ export default {
   display flex
   justify-content center
   margin auto
+  flex-wrap wrap
 .icon
   width 60%
   fill var(--white)
