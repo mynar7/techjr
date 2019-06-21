@@ -45,3 +45,6 @@ Show Notes:
 * 1:06:12 - Nerd Minute!
   * Roy talks football, basketball, and how his passions led to client work
   * We also talk about the new Star Wars
+
+Watch Roy's talk from the [Project Codex](https://meetup.com/project-code-experience) meetup:
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/C0ot7RdmLYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
