@@ -47,4 +47,16 @@ Show Notes:
   * We also talk about the new Star Wars
 
 Watch Roy's talk from the [Project Codex](https://meetup.com/project-code-experience) meetup:
+<a class="alternate-video-link" hidden href="https://www.youtube.com/watch?v=C0ot7RdmLYs" target="_BLANK">YouTube</a>
 <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/C0ot7RdmLYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>
+ @media screen and (max-width: 650px) {
+  iframe {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+  .alternate-video-link {
+    display: inline
+  }
+</style>

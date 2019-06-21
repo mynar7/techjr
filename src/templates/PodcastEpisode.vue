@@ -313,4 +313,11 @@ audio
   font-size 0.9rem
   text-transform uppercase
 
+@media screen and (max-width: 500px)
+  ul
+    padding-right 6px !important
+    padding-left 18px !important
+  .podcast-episode
+    padding-left 12px
+    padding-right 0
 </style>

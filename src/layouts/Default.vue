@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(class="layout")
+  .layout
     header
       g-link(to="/")
         g-image.logo(alt="logo" src="~/assets/images/techJR-h.png")
@@ -70,6 +70,9 @@ export default {
   margin 0 auto
   padding-left 20px
   padding-right 20px
+  @media screen and (max-width: 500px)
+    width 95vw
+    padding 0
 
 .header
   display flex
