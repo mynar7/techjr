@@ -16,7 +16,8 @@ For the uninitiated, Scott is one half of the [Syntax](https://syntax.fm) podcas
 Scott agreed to come on the show and answer all our questions about web development, kung-fu movies, breakdancing, and a few other things. We were a little nervous having someone like Scott for our first interview episode, but it turned out pretty well I think!
 
 PS: We're now up on Apple Podcasts, iTunes, Google podcasts, Google Play, and Spotify. Click the links under our site logo to subscribe and, if you're feeling generous, leave a review!
-<hr />
+
+***
 
 Show Notes:
 

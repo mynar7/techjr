@@ -22,7 +22,7 @@ The unknown can start to snowball and most people think, _Well, maybe I'll freel
 
 Roy Jossfolk has taken all those lumps already in his 14 years as a freelance developer. He came on the show to tell us how junior devs can get into freelancing, how to identify good clients, and how to avoid bad ones. Most of all, he talks about how to safeguard your time and energy as a freelancer so you can be successful and avoid burnout.
 
-<hr />
+***
 
 Show Notes:
 * 1:20 - Should Junior Devs even attempt Freelancing?

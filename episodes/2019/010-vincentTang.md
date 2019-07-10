@@ -23,6 +23,7 @@ We also talk about anime at the end. Hey, gotta have Nerd Minute.
 
 ***
 
+Show Notes:
 * 2:00 - Vincent's intro
   * Vincent's Background
   * How long his search lasted

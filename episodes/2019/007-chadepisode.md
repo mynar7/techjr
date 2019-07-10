@@ -14,7 +14,8 @@ Getting hired as a junior dev is tough. Companies don't want to place their bets
 However, you can do a lot as a junior developer to make yourself more attractive to hiring managers.
 
 In this episode, Chad shares his experience as a Developer and Career Coach and tells us his tips for the job search.
-<hr />
+
+***
 
 Show Notes:
 * 1:20 - Advice for Career Changers

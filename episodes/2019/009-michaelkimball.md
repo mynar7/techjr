@@ -17,7 +17,8 @@ However, Java is an enterprise darling and I think it deserves another shot. Plu
 That's why we invited Michael Kimball, [The Code Operative](https://www.youtube.com/channel/UCMm7l6iBe5ShFkp6yTWnV6A), to come and set us straight on how to get going with Java.
 
 Michael works as a backend developer writing Java apps and cares about teaching new devs how to learn Java while guiding them through the complicated Oracle landscape.
-<hr />
+
+***
 
 Show Notes:
 * 2:57 - Michael's Backstory

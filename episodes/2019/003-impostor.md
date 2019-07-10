@@ -15,7 +15,7 @@ Almost all developers face impostor syndrome at some point or another, and it's 
 
 Lee and Eddie both faced impostor syndrome to some degree, and in this episode they tackling those doubts in the past and daily as new developers.
 
-<hr />
+***
 
 Show Notes:
 

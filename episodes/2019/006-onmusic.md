@@ -16,7 +16,8 @@ The journey to becoming a musician can be just as tumultuous as that of becoming
 We've been musicians for much longer than we've been developers, and we've learned a lot of life lessons from playing music. We think those lessons can be transferred to learning development.
 
 Join Eddie and Lee as they explore the challenges they faced as musicians and learn how you can apply those hard-learned lessons to development!
-<hr />
+
+***
 
 Show Notes:
 
