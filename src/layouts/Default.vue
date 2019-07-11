@@ -18,6 +18,8 @@
           Overcast.icon
         a.icon-bg(href="/rss.xml" target="_BLANK")
           Rss.icon
+        a.icon-bg(href="https://twitter.com/TechJrPodcast" target="_BLANK")
+          Twitter.icon
     .description
 
       p Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
@@ -45,6 +47,7 @@ import GooglePodcasts from '~/assets/images/googlePlay'
 import Spotify from '~/assets/images/spotify'
 import PocketCasts from '~/assets/images/pocketcasts'
 import Overcast from '~/assets/images/overcast'
+import Twitter from '~/assets/images/twitter'
 export default {
   components: {
     Rss,
@@ -54,6 +57,7 @@ export default {
     GooglePlay,
     Overcast,
     PocketCasts,
+    Twitter,
   }
 }
 </script>
