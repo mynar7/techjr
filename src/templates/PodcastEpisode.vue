@@ -302,7 +302,8 @@ audio
 .tags-container, .tags-container>div, ul.tags
   display flex
   flex-wrap wrap
-  // justify-content space-between
+  justify-content space-between
+  align-items center
 
 .tags-container > * > *, ul.tags > *
   margin-right 6px
