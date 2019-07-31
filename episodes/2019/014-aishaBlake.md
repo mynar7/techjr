@@ -1,6 +1,6 @@
 ---
 title: 'Aisha Blake talks juniors, conferences, and diversity in the tech industry'
-date: 2019-07-24T11:00:00-04:00
+date: 2019-07-31T11:10:00-04:00
 excerpt: "Aisha Blake joins us this week to explain how she ended up speaking at 14 conferences this past year as a junior developer, as well as starting a few of her own."
 author: Lee Warrick and Edwin Otero
 tags: ['Interviews', 'Aisha Blake', 'Women in Tech', 'Diversify Tech', 'Conferences']
