@@ -141,7 +141,7 @@ module.exports = {
             title: node.title,
             description: node.excerpt,
             date: node.date,
-            url: 'https://techjr.dev/episodes/' + (new Date(node.date).getFullYear()) + '/' + node.slug,
+            url: 'https://techjr.dev' + node.path,
             author: node.author,
             categories: node.tags,
             enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fileUrl, size: (Number(node.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
