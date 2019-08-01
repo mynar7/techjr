@@ -79,7 +79,7 @@ module.exports = {
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
           copyright: '2019 Lee Warrick and Edwin Otero',
           language: 'en-us',
-          categories: ['Technology', 'Software How-To', 'Tech News'],
+          categories: ['Technology', 'Business', 'Education'],
           // pubDate: 'May 19, 2019 04:00:00 GMT',
           pubDate: 'April 8, 2019 14:00:00 GMT',
           ttl: '60',
