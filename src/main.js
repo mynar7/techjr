@@ -71,7 +71,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.meta.push({
     property: 'og:image',
-    content: 'https://techjr.dev/techJR-v.png'
+    content: 'https://techjr.dev/techJR_logo-card.jpg'
   })
   head.meta.push({
     property: 'og:url',

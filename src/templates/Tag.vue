@@ -160,9 +160,9 @@ export default {
             },
             image: {
               "@type": "ImageObject",
-              height: 1400,
-              url: "https://techjr.dev/techJR-v.png",
-              width: 1400
+              height: 419,
+              url: "https://techjr.dev/techJR_logo-card.jpg",
+              width: 800,
             },
             inLanguage: "en-us",
             mainEntityOfPage: "http://techjr.dev/",

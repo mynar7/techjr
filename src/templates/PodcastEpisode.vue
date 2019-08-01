@@ -231,7 +231,9 @@ export default {
             headline: this.$page.podcastEpisode.title,
             image: {
               "@type": "ImageObject",
-              url: "https://techjr.dev/techJR-v.png"
+              height: 419,
+              url: "https://techjr.dev/techJR_logo-card.jpg",
+              width: 800,
             },
             inLanguage: "en-us",
             isAccessibleForFree: "true",

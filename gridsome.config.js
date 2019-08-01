@@ -66,12 +66,14 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'PodcastEpisode',
+        latest: true,
+        maxItems: 25,
         feedOptions: {
           title: 'Tech Jr',
           description: 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
           feed_url: 'https://techjr.dev/rss.xml',
           site_url: 'https://techjr.dev',
-          image_url: 'https://techjr.dev/techJR-v.png',
+          image_url: 'https://techjr.dev/techJR-v-white.png',
           // docs: 'http://example.com/rss/docs.html',
           managingEditor: 'leewarrick@gmail.com (Lee Warrick)',
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
@@ -100,7 +102,7 @@ module.exports = {
             {
               'itunes:image': {
                 _attr: {
-                  href: 'https://techjr.dev/techJR-v.png'
+                  href: 'https://techjr.dev/techJR-v-white.png'
                 }
               }
             },
@@ -117,18 +119,20 @@ module.exports = {
               'itunes:category': [
                 {
                   _attr: {
-                    text: 'Technology'
+                    text: 'Business'
                   }
                 },
-                {
-                  'itunes:category': {
-                    _attr: {
-                      text: 'Software How-To'
-                    }
-                  }
-                }
               ]
-            }
+            },
+            {
+              'itunes:category': [
+                {
+                  _attr: {
+                    text: 'Education'
+                  }
+                },
+              ]
+            },
           ]
         },
         feedItemOptions: node => {
@@ -136,22 +140,22 @@ module.exports = {
           return ({
             title: node.title,
             description: node.excerpt,
-            date: node.fields.date,
+            date: node.date,
             url: 'https://techjr.dev/episodes/' + (new Date(node.date).getFullYear()) + '/' + node.slug,
-            author: node.fields.author,
-            categories: node.fields.tags,
-            enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fields.fileUrl, size: (Number(node.fields.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
+            author: node.author,
+            categories: node.tags,
+            enclosure: { url: 'https://s3.amazonaws.com/techjr/episodes/' + node.fileUrl, size: (Number(node.fileSize) * 1000 * 1000), type: 'audio/mpeg' }, // optional enclosure
             custom_elements: [
               { 'itunes:author': 'Lee Warrick and Edwin Otero' },
               { 'itunes:subtitle': node.excerpt },
               {
                 'itunes:image': {
                   _attr: {
-                    href: 'https://techjr.dev/techJR-v.png'
+                    href: 'https://techjr.dev/techJR-v-white.png'
                   }
                 }
               },
-              { 'itunes:duration': node.fields.showLength },
+              { 'itunes:duration': node.showLength },
               { 'itunes:explicit': 'no' }
             ]
           })
