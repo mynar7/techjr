@@ -5,7 +5,7 @@ excerpt: "Chris Biscardi joins us this week to talk about Gatsby Themes, MDX, co
 author: Lee Warrick and Edwin Otero
 tags: ['Interviews', 'Chris Biscardi', 'Gatsby', 'Interviews']
 showLength: 1:11:01
-fileUrl: 015_TechJr_ChrisBiscardi.mp3
+fileUrl: 015_TechJr_ChrisBiscardi_v2.mp3
 fileSize: 97.5
 ---
 
