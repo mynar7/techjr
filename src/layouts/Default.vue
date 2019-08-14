@@ -81,8 +81,7 @@ export default {
   padding-left 20px
   padding-right 20px
   @media screen and (max-width: 500px)
-    width 95vw
-    padding 0
+    padding 0px 8px
 
 .header
   display flex

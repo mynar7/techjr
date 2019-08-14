@@ -321,6 +321,5 @@ audio
     padding-right 6px !important
     padding-left 18px !important
   .podcast-episode
-    padding-left 12px
-    padding-right 0
+    padding 0 12px
 </style>
