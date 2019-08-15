@@ -4,6 +4,12 @@ module.exports = {
   // pathPrefix: '/gridsome-test',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-144549907-3'
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: './episodes/**/*.md',
