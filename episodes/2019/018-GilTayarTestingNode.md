@@ -9,7 +9,7 @@ fileUrl: 018_TechJr_GilTayar.mp3
 fileSize: 68.9
 ---
 
-Testing software is a complex and often-neglected aspect of development.
+## Testing software is a complex and often-neglected aspect of development.
 
 How many tutorials have you watched that demo a framework/cli/library that generates a `.test` file, only for the tutorial author to politely ask you to ignore that `.test` file?
 
@@ -21,7 +21,7 @@ When you write tests, you're double-checking yourself in the future when you mak
 
 Also, when you're _writing_ your tests, you may realize what kind of pandora's box you've opened coding that new feature!
 
-**About this week's guest:**
+### About this week's guest:
 
 Gil Tayar is a Software Architect with [applitools](https://applitools.com/) that knows a _lot_ about testing. He's also a great speaker and has great taste in television shows 😎. Follow him on [twitter](https://twitter.com/giltayar)
 
