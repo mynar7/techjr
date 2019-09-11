@@ -3,7 +3,8 @@
     .card.podcast-episode
       h1 {{$page.podcastEpisode.title}}
       p.listen Listen to the episode:
-      audio(:src="s3Folder + $page.podcastEpisode.fileUrl" controls="true" ref="episodeAudioElement")
+      audio(:src="s3Folder + $page.podcastEpisode.fileUrl" ref="episodeAudioElement")
+      Player(:audioRef="audioRef")
       div.content(v-html="$page.podcastEpisode.content" ref="contentContainer")
       //- h4 {{this.$route.params}}
       .tags-container
@@ -36,13 +37,19 @@ query Post ($path: String!){
 </page-query>
 
 <script>
+import Player from '../components/Player'
 export default {
   data() {
     return {
-      s3Folder: "https://s3.amazonaws.com/techjr/episodes/"
+      s3Folder: "https://s3.amazonaws.com/techjr/episodes/",
+      audioRef: {}
     };
   },
+  components: {
+    Player
+  },
   mounted() {
+    this.audioRef = this.$refs.episodeAudioElement
     // const timeRegex = /(([0-9][0-9]:)([0-5][0-9]:[0-5][0-9])|(([0-5]|)[0-9]:[0-5][0-9]))/gm
     const timeRegex = /((([0-9]:)|([0-9][0-9]:))([0-5][0-9]:[0-5][0-9])|(([0-5]|)[0-9]:[0-5][0-9]))/gm
     const liTags = this.$refs.contentContainer.querySelectorAll('li')
@@ -304,7 +311,6 @@ audio
 .tags-container, .tags-container>div, ul.tags
   display flex
   flex-wrap wrap
-  justify-content space-between
   align-items center
 
 .tags-container > * > *, ul.tags > *

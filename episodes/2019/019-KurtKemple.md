@@ -3,7 +3,7 @@ title: "Kurtis Kemple on AWS Amplify and becoming a Developer with a Felony Conv
 date: 2019-09-04T11:00:00-04:00
 excerpt: "We dive into working with AWS and cloud architecture this week with Kurt Kemple, a developer advocate for AWS. Kurt teaches us about AWS Amplify and how to get started with AWS, and then shares his story about getting started in the Tech industry as an Ex-con."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'AWS', "Node", "JavaScript", 'DevOps', 'Getting Hired']
+tags: ['Interviews', 'AWS', "Node", "JavaScript", 'DevOps', 'Getting Hired', 'Kurtis Kemple']
 showLength: 1:12:08
 fileUrl: 019_TechJr_KurtKemple.mp3
 fileSize: 72.2
