@@ -30,11 +30,11 @@ export default {
         content:
           "Lee Warrick and Edwin Otero are Orlando-based web developers that are looking to give back to the tech community. We share our personal experiences as Junior Devs as well as interview industry professionals to answer listeners' and our own questions."
       },
-      {
-        property: "og:title",
-        key: "og:title",
-        content: "About the show - Tech Jr Podcast",
-      },
+      // {
+      //   property: "og:title",
+      //   key: "og:title",
+      //   content: "About the show - Tech Jr Podcast",
+      // },
       {
         property: "og:url",
         key: "og:url",

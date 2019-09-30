@@ -111,11 +111,11 @@ export default {
           key: "description",
           content: this.$page.podcastEpisode.excerpt
         },
-        {
-          property: "og:title",
-          key: "og:title",
-          content: this.$page.podcastEpisode.title + " - Tech Jr Podcast"
-        },
+        // {
+        //   property: "og:title",
+        //   key: "og:title",
+        //   content: this.$page.podcastEpisode.title + " - Tech Jr Podcast"
+        // },
         {
           property: "og:url",
           key: "og:url",
