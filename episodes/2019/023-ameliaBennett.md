@@ -17,7 +17,7 @@ Show Notes:
 * 1:01 - Intro and Amelia's Background
 * 4:31 - What languages do you use as a Data Scientist?
 * 6:51 - What is Data Science?
-  * Birch Works Report
+  * [Burtch Works Report](https://www.burtchworks.com/big-data-analyst-salary/big-data-career-tips/the-burtch-works-study/)
   * 3 types of Data Science Workers:
     * Analystics: Inferring business value from data
     * Algorithms: creating predictions from data sets
