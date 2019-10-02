@@ -6,7 +6,8 @@
 
 <static-query>
 query {
-  allPodcastEpisode (perPage: 20, sortBy: "date") {
+  # allPodcastEpisode (perPage: 20, sortBy: "date") {
+  allPodcastEpisode (sortBy: "date") {
     edges {
       node {
         path
