@@ -8,8 +8,13 @@ showLength: 55:01
 fileUrl: 023_TechJr_AmeliaBennett.mp3
 fileSize: 46.9
 ---
+What is Data Science? What does a data scientist do?
 
+Data Scientist Amelia Bennett joined us this week to explain what she does and the various facets of the data science field.
 
+We talk about Machine Learning, Statistics, and more!
+
+Amelia also offers some advice and a few solid tips for getting into the data science field.
 
 ---
 Show Notes:
