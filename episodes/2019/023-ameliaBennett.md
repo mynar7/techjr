@@ -1,6 +1,6 @@
 ---
 title: '"What is Data Science?" with Amelia Bennett'
-date: 2019-10-02T12:00:00-04:00
+date: 2019-10-02T10:00:00-04:00
 excerpt: "Data Scientist Amelia Bennett is one part programmer, one part statistician, and one part ...fireball hurling mage? In this episode she walks us through what her role is as a data scientist, as well as how she employs programming and machine learning to solve problems for businesses."
 author: Lee Warrick and Edwin Otero
 tags: ['Interviews', 'Amelia Bennett']
