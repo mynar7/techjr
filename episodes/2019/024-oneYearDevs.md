@@ -1,7 +1,7 @@
 ---
-title: 'What did we learn after being developers for a year?'
-date: 2019-10-09T12:00:00-04:00
-excerpt: "Lee and Eddie have been professional developers for one year! What have they learned, what surprised them, and what advice would they give their past selves?"
+title: "We've Been Developers for One Year!"
+date: 2019-10-09T08:15:00-04:00
+excerpt: "Lee and Eddie are celebrating their one year anniversaries in the tech industry! What have they learned, what surprised them, and what advice would they give their past selves?"
 author: Lee Warrick and Edwin Otero
 tags: ['Career Advice']
 showLength: 1:15:31
@@ -9,7 +9,7 @@ fileUrl: 024_TechJr_OneYearDevs.mp3
 fileSize: 73.1
 ---
 
-Happy One Year Dev-versary!
+## Happy One Year Dev-versary!
 
 Eddie and I started as developers in September 2018, and we've learned a whole lot in that first year.
 
