@@ -45,11 +45,11 @@ export default {
           key: "description",
           content: `All episodes that match the tag of "${this.$page.tag.title}" on the Tech Jr Podcast`
         },
-        // {
-        //   property: "og:title",
-        //   key: "og:title",
-        //   content: 'Episodes tagged: ' + `"${this.$page.tag.title}" - Tech Jr Podcast`,
-        // },
+        {
+          property: "og:title",
+          key: "og:title",
+          content: 'Episodes tagged: ' + `"${this.$page.tag.title}" - Tech Jr Podcast`,
+        },
         {
           property: "og:url",
           key: "og:url",

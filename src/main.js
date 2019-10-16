@@ -54,11 +54,11 @@ export default function (Vue, { router, head, isClient }) {
     name: 'keywords',
     content: 'HTML, CSS, JavaScript, junior developer, Web Development, junior developer podcast'
   })
-  // head.meta.push({
-  //   property: 'og:title',
-  //   key: 'og:title',
-  //   content: 'The TechJr Podcast'
-  // })
+  head.meta.push({
+    property: 'og:title',
+    key: 'og:title',
+    content: 'The TechJr Podcast'
+  })
   head.meta.push({
     property: 'og:description',
     key: 'og:description',

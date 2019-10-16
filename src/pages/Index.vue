@@ -18,11 +18,11 @@ export default {
         content:
           "Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology."
       },
-      // {
-      //   property: "og:title",
-      //   key: "og:title",
-      //   content: "Recent Episodes - Tech Jr Podcast"
-      // },
+      {
+        property: "og:title",
+        key: "og:title",
+        content: "Recent Episodes - Tech Jr Podcast"
+      },
       {
         property: "og:url",
         key: "og:url",
