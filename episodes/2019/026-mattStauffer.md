@@ -3,7 +3,7 @@ title: "How to Learn Laravel and PHP with Matt Stauffer"
 date: 2019-10-23T10:30:00-04:00
 excerpt: "PHP powers a lot of the internet, but developers love to hate on PHP. Matt Stauffer, author of 'Laravel Up and Running' wants to change that. Matt tells us how to avoid the pitfalls of learning PHP and the best way to get started learning."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Laravel', 'PHP', 'Matt Stauffer']
+tags: ['Interviews', 'Laravel', 'PHP', 'Matt Stauffer', 'Backend']
 showLength: 1:28:03
 fileUrl: 026_TechJr_MattStauffer.mp3
 fileSize: 97.1
