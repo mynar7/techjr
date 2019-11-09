@@ -79,7 +79,7 @@ module.exports = {
           description: 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
           feed_url: 'https://techjr.dev/rss.xml',
           site_url: 'https://techjr.dev',
-          image_url: 'https://techjr.dev/techJR-apple-logo.png',
+          image_url: 'https://techjr.dev/techJR-apple-logo.jpg',
           // docs: 'http://example.com/rss/docs.html',
           managingEditor: 'leewarrick@gmail.com (Lee Warrick)',
           webMaster: 'leewarrick@gmail.com (Lee Warrick)',
@@ -108,7 +108,7 @@ module.exports = {
             {
               'itunes:image': {
                 _attr: {
-                  href: 'https://techjr.dev/techJR-apple-logo.png'
+                  href: 'https://techjr.dev/techJR-apple-logo.jpg'
                 }
               }
             },
@@ -157,7 +157,7 @@ module.exports = {
               {
                 'itunes:image': {
                   _attr: {
-                    href: 'https://techjr.dev/techJR-apple-logo.png'
+                    href: 'https://techjr.dev/techJR-apple-logo.jpg'
                   }
                 }
               },
