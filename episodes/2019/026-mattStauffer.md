@@ -26,6 +26,7 @@ This episode is all about the best ways to get into PHP and Laravel and start le
 ---
 
 Show Notes:
+
 * 1:10 - Intro
 * 2:36 - JavaScript vs PHP
 * 7:13 - Why use PHP?

@@ -17,6 +17,8 @@ We also talk about working remotely and contrast it against the traditional offi
 
 ---
 
+Show Notes:
+
 * 1:01 - Intro
 * 2:08 - How did you become a Product Manager?
   * What does a Product Manager do?
