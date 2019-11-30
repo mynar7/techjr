@@ -30,8 +30,8 @@
 
       p.home-links.card
         g-link.link(to="/") Episodes
-        g-link.link(to="/about") About
-        g-link.link(to="/support") Support
+        g-link.link.new(to="/about") About
+        g-link.link.new(to="/support") Support
 
     slot
 </template>
@@ -158,4 +158,26 @@ p.home-links
   .active--exact
     color var(--white)
     pointer-events none
+
+.new.active--exact
+  &:before
+    display none
+.new
+  position relative
+.new:before
+  color var(--primary)
+  font-size 0.8rem
+  font-weight 900
+  position absolute
+  content "NEW!"
+  z-index 2
+  bottom 10px
+  left 40px
+  transform rotateZ(15deg) scale(1)
+  animation 0.7s linear 0s infinite alternate pulse
+@keyframes pulse
+  to
+    transform scale(1.2) rotateZ(15deg)
+    color var(--primaryDark)
+
 </style>

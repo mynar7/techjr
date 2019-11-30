@@ -13,7 +13,7 @@
           p Lee Warrick is a Front-end Developer with Realtruck.com by day,
             |  and by night the Organizer of Orlando’s Junior Developer Meetup.
             |  Being a Career-Changer himself, Lee has made it his mission to pay-forward all of the help he received as a new developer ten-fold, and improve the lives of new developers in any way he can.
-          p
+          .social-icons
             a(href="https://www.linkedin.com/in/lee-warrick/")
               img.social(src='../assets/images/linkedin.png')
             a(href="https://twitter.com/leewarrickjr")
@@ -24,7 +24,7 @@
             strong.host-name Edwin Otero
           p Eddie Otero is a Front-end Developer for Capco and former designer of 15 years.
             |  Eddie would much rather doodle or code than engage in public speaking, so naturally he thought a podcast would be a perfect fit for his quiet nature!
-          p
+          .social-icons
             a(href="https://www.linkedin.com/in/edwin-otero/")
               img.social(src='../assets/images/linkedin.png')
             a(href="https://twitter.com/ed0ter0")
@@ -57,6 +57,10 @@ h2
   display block
   margin auto
   margin-bottom 10px
+.social-icons
+  display flex
+  align-items center
+  justify-content center
 .social
   width 30px
   height auto
