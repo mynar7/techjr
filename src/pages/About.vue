@@ -2,22 +2,76 @@
   Layout
     .card
       h1 About the Show
-      p Lee Warrick and Edwin Otero are Orlando-based web developers that are looking to give back to the tech community.
-      p Becoming a developer isn't easy, and we don't mean just learning the technology.
-      p There's a wild world to navigate when trying to get a job and build your personal brand.
-      p We share our personal experiences as Junior Devs as well as interview industry professionals to answer listeners' and our own questions.
-      p At the end of the day, we want to make becoming a Developer just a little bit better.
+      p Tech JR is a show created to help early career developers navigate the tech industry.
+      |  Show topics include programming lanugages, web technologies and frameworks, as well as job search strategies and soft skills.
+      h2 Hosts
+      .hosts
+        .bio
+          a.link(href="https://leewarrick.com")
+            img.host-pic(src='../assets/images/lee.jpg')
+            strong.host-name Lee Warrick
+          p Lee Warrick is a Front-end Developer with Realtruck.com by day,
+            |  and by night the Organizer of Orlando’s Junior Developer Meetup.
+            |  Being a Career-Changer himself, Lee has made it his mission to pay-forward all of the help he received as a new developer ten-fold, and improve the lives of new developers in any way he can.
+          p
+            a(href="https://www.linkedin.com/in/lee-warrick/")
+              img.social(src='../assets/images/linkedin.png')
+            a(href="https://twitter.com/leewarrickjr")
+              img.social(src='../assets/images/twitter.png')
+        .bio
+          a.link(href="https://edii698.github.io/resume/")
+            img.host-pic(src='../assets/images/eddie.jpg')
+            strong.host-name Edwin Otero
+          p Eddie Otero is a Front-end Developer for Capco and former designer of 15 years.
+            |  Eddie would much rather doodle or code than engage in public speaking, so naturally he thought a podcast would be a perfect fit for his quiet nature!
+          p
+            a(href="https://www.linkedin.com/in/edwin-otero/")
+              img.social(src='../assets/images/linkedin.png')
+            a(href="https://twitter.com/ed0ter0")
+              img.social(src='../assets/images/twitter.png')
+            a(href="https://instagram.com/ed0ter0")
+              img.social(src='../assets/images/instagram.png')
+
+
 
       h2 Contact
       p Please feel free to reach out to us at #[a.link(href="mailto:techjrpodcast@gmail.com") techjrpodcast@gmail.com]
+        |  with any questions or sponsorship inquiries.
       p We would love to hear from you!
 
-      h2 Support
-      p Please #[a.link(href="https://tinyletter.com/leewarrick") Subscribe] to the show!
-      p Follow us on #[a.link(href="https://twitter.com/techjrpodcast") twitter]!
-      p You can also support us by leaving us a review on #[a.link(href="https://podcasts.apple.com/us/podcast/tech-jr/id1465115096") itunes], liking, subscribing, following, and just telling your friends that you enjoy the show.
-
 </template>
+
+<style lang="stylus" scoped>
+*
+  text-align center
+h1
+  margin-top 20px
+  margin-bottom 40px
+h2
+  margin-top 40px
+  margin-bottom 40px
+.host-pic
+  border-radius 100px
+  max-width 150px
+  height auto
+  display block
+  margin auto
+  margin-bottom 10px
+.social
+  width 30px
+  height auto
+  margin 0 3px
+.host-name
+  text-align center
+  display block
+.hosts
+  display flex
+  flex-wrap wrap
+  justify-content space-around
+.bio
+  width 350px
+  margin-bottom 40px
+</style>
 
 <script>
 export default {

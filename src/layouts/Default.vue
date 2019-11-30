@@ -31,6 +31,7 @@
       p.home-links.card
         g-link.link(to="/") Episodes
         g-link.link(to="/about") About
+        g-link.link(to="/support") Support
 
     slot
 </template>
