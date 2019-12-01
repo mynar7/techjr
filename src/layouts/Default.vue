@@ -34,7 +34,7 @@
 
       p.home-links.card
         g-link.link(to="/") Episodes
-        g-link.link.new(to="/about") About
+        g-link.link(to="/about") About
         g-link.link.new(to="/support") Support
 
     slot
