@@ -73,7 +73,7 @@ module.exports = {
       options: {
         contentTypeName: 'PodcastEpisode',
         latest: true,
-        maxItems: 25,
+        // maxItems: 25,
         feedOptions: {
           title: 'Tech Jr',
           description: 'Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it\'s like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.',
