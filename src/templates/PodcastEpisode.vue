@@ -279,6 +279,9 @@ export default {
     li
       li
         list-style-type circle
+    ol
+      li
+        list-style-type decimal
     a
       color var(--secondaryDark)
       position relative
