@@ -270,6 +270,10 @@ export default {
     margin-bottom 6px
   .content
     margin-bottom 36px
+    img
+      width 100%
+      height auto
+      margin 12px 0
     li, ul
       list-style-type disc
     ul
