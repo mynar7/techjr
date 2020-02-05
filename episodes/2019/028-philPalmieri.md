@@ -3,7 +3,7 @@ title: "Phil Palmieri explains how to get a job working with Node"
 date: 2019-11-06T09:00:00-04:00
 excerpt: "Have you ever wondered what it takes to get a job working with Node? Are you a front-end developer wondering what back-end development is like? Phil Palmieri walks us through the challenges he faces as a Node developer as well as what he looks for in new hires for his team."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Node', 'Phil Palmieri', 'AWS', 'Backend']
+tags: ['Interviews', 'Node', 'Phil Palmieri', 'AWS', 'Backend', 'Testing']
 showLength: 1:12:00
 fileUrl: 028_TechJr_PhilPalmieri.mp3
 fileSize: 73.6
