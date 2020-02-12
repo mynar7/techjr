@@ -3,7 +3,7 @@ title: "Social Media Secrets, Getting Kids to code, and Self-learning with Will 
 date: 2019-09-11T09:00:00-04:00
 excerpt: "Will teaches us how to use Social Media to impress employers and build relationships, how to teach kids to code, and how he stays motivated to learn while juggling being a father of 6 and working 12-hour shifts at his factory job."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Getting Kids to Code', 'Getting Hired', 'Will Johnson']
+tags: ['interviews', 'getting kids to code', 'getting hired', 'will johnson']
 showLength: 1:03:37
 fileUrl: 020_TechJr_WillJohnson.mp3
 fileSize: 67.8

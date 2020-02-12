@@ -3,7 +3,7 @@ title: 'Our Typical Developer Workdays'
 date: 2019-07-17T11:00:00-04:00
 excerpt: "Have you ever wondered what the day-to-day is like for a developer? Lee and Eddie talk about what they do daily and what it's like to actually work as a Junior Developer."
 author: Lee Warrick and Edwin Otero
-tags: ['Agile', 'User Stories', 'QA']
+tags: ['agile', 'user stories', 'qa']
 showLength: 57:27
 fileUrl: 012_TechJr_TypicalDevWorkday.mp3
 fileSize: 67.3

@@ -3,7 +3,7 @@ title: 'Roy Jossfolk talks Freelancing for Junior Devs'
 date: 2019-06-19T09:50:00-04:00
 excerpt: 'Freelance Web Developer Roy Jossfolk joins us to share his strategies for freelancing and common pitfalls to avoid when getting started.'
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Networking', 'Freelancing', 'Roy Jossfolk']
+tags: ['interviews', 'networking', 'freelancing', 'roy jossfolk']
 showLength: 1:21:19
 fileUrl: 008_TechJr_RoyJossfolk.mp3
 fileSize: 79.2

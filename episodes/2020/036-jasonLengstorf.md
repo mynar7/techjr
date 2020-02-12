@@ -3,7 +3,7 @@ title: Jason Lengstorf shares his story, plus job-search, content-creation, and 
 date: 2020-01-22T09:00:00-04:00
 excerpt: Jason Lengstorf is a Gatsby alumni, Netlify developer advocate, and all-around great guy to talk to. We grill him about how he went from rock band member to rockstar developer (sorry), working with the JAMstack, selling vacuums door-to-door, and how to get a great start as a developer.
 author: Lee Warrick &amp; Eddie Otero
-tags: ['Jason Lengstorf', 'Gatsby', 'React', 'Netlify', 'Interviews', 'Career Advice']
+tags: ['jason lengstorf', 'gatsby', 'react', 'netlify', 'interviews', 'career advice']
 showLength: 1:28:18
 fileUrl: 036_TechJr_JasonLengstorf.mp3
 fileSize: 93.6

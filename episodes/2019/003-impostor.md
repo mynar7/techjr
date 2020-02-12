@@ -3,7 +3,7 @@ title: Dealing with Impostor Syndrome
 date: 2019-05-08T12:54:00-04:00
 excerpt: Lee and Eddie talk about their run-ins with impostor syndrome and give advice on how to short-circuit those feelings when they surface.
 author: Lee Warrick &amp; Edwin Otero
-tags: ['Impostor Syndrome', 'Origin Stories']
+tags: ['impostor syndrome', 'origin stories']
 showLength: 1:00:52
 fileUrl: TechJr_ep_04_5-8-2019_imposter.mp3
 fileSize: 123.7

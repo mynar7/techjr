@@ -3,7 +3,7 @@ title: "Machine Learning with JavaScript? Gant Laborde teaches us Tensorflow.js"
 date: 2019-09-18T09:00:00-04:00
 excerpt: "Mad Scientist Gant Laborde joins us to explain how you can get into Machine Learning with a little JavaScript knowledge, no math required. We answer what ML/AI is, how TensorflowJS fits in, as well as make a few Skynet jokes."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Data Science', 'Machine Learning', 'Artificial Intelligence', 'Gant Laborde']
+tags: ['interviews', 'data science', 'machine learning', 'artificial intelligence', 'gant laborde']
 showLength: 1:11:41
 fileUrl: 021_TechJr_GantLaborde.mp3
 fileSize: 72.6

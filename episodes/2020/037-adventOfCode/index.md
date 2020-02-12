@@ -3,7 +3,7 @@ title: Advent of Code! Lee spends a month learning Python through code puzzles
 date: 2020-01-29T10:00:00-05:00
 excerpt: Have you heard of Advent of Code? It's one of the most challenging collection of programming puzzles out there. So naturally, Lee got suckered into trying it. To up the ante, he decided to do it in Python, which he is not very good at.
 author: Lee Warrick &amp; Eddie Otero
-tags: ['Advent of Code', 'Algorithms', 'Data Structures']
+tags: ['advent of code', 'algorithms', 'data structures']
 showLength: 58:11
 fileUrl: 037_TechJr_AdventOfCode.mp3
 fileSize: 79.9

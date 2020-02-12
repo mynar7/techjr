@@ -3,7 +3,7 @@ title: 'How to learn Java with Michael Kimball, The Code Operative'
 date: 2019-06-26T09:00:00-04:00
 excerpt: "We're Oscar Mike with The Code Operative! Michael Kimball is a backend developer with his own YouTube channel dedicated to teaching Java, and this week he answers our questions about the language and how to get started."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Backend', 'Java', 'Michael Kimball']
+tags: ['interviews', 'backend', 'java', 'michael kimball']
 showLength: 1:05:24
 fileUrl: 009_TechJr_MichaelKimball.mp3
 fileSize: 62.7

@@ -3,7 +3,7 @@ title: "Gregg Pollack shares his successes and failures with startups and master
 date: 2019-11-20T09:00:00-04:00
 excerpt: "Vue Mastery Creator Gregg Pollack joins us this week to share his journey in creating multiple successful Orlando startups, as well as a sneak preview of Vue 3."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Vue', 'Greg Pollack', 'Startups']
+tags: ['interviews', 'vue', 'greg pollack', 'startups']
 showLength: 1:29:04
 fileUrl: 030_TechJr_GreggPollack.mp3
 fileSize: 96.5

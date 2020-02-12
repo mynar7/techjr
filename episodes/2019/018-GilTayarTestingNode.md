@@ -3,7 +3,7 @@ title: "Testing Node Microservices with Gil Tayar"
 date: 2019-08-28T11:00:00-04:00
 excerpt: "Testing is tough. This week we have Senior Applitools Architect Gil Tayar on the show to explain the types of testing, why you should test, and how to test node without pulling your hair out."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Testing', "Node", "JavaScript", 'Backend']
+tags: ['interviews', 'testing', "node", "javascript", 'backend']
 showLength: 1:05:32
 fileUrl: 018_TechJr_GilTayar.mp3
 fileSize: 68.9

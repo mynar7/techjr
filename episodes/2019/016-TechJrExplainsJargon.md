@@ -3,7 +3,7 @@ title: "Let's Explain Programming Jargon"
 date: 2019-08-14T11:00:00-04:00
 excerpt: "One of the hardest parts of programming is learning the basics. What are variables, functions, and recursion? Lee and Eddie attempt to tackle the basics in a way anyone can understand."
 author: Lee Warrick and Edwin Otero
-tags: ['Beginners', 'Fundamentals', "Basics", "Let's Explain"]
+tags: ['beginners', 'fundamentals', "basics", "let's explain"]
 showLength: 1:00:42
 fileUrl: 016_TechJr_ExplainsJargon.mp3
 fileSize: 59.3

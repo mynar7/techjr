@@ -3,7 +3,7 @@ title: 'Hacking the Job Search with Vincent Tang'
 date: 2019-07-03T09:50:00-04:00
 excerpt: "Have you ever wondered how LinkedIn or Indeed work? Vincent Tang has done the research and joins us on the show to share his findings on how to raise your visibility when looking for a job!"
 author: Lee Warrick and Edwin Otero
-tags: ['Resumes', 'Interviews', 'Getting Hired', 'Salary Negotiations', 'LinkedIn', 'Indeed', 'Vincent Tang']
+tags: ['resumes', 'interviews', 'getting hired', 'salary negotiations', 'linkedin', 'indeed', 'vincent tang']
 showLength: 58:21
 fileUrl: 010_TechJr_VincentTang.mp3
 fileSize: 57.2

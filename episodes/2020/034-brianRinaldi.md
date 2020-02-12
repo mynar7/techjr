@@ -3,7 +3,7 @@ title: Starting your own conference, online meetup, and more with developer advo
 date: 2020-01-08T11:00:00-04:00
 excerpt: Have you ever wondered what goes into running a tech conference? Brian Rinaldi joins us to talk about event organizing and being a developer advocate.
 author: Lee Warrick &amp; Eddie Otero
-tags: ['Brian Rinaldi', 'Developer Advocate', 'Conferences', 'Interviews']
+tags: ['brian rinaldi', 'developer advocate', 'conferences', 'interviews']
 showLength: 1:00:28
 fileUrl: 034_TechJr_BrianRinaldi.mp3
 fileSize: 55.7

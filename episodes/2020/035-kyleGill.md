@@ -3,7 +3,7 @@ title: Kyle Gill goes from college student to lunch with Kent C Dodds to working
 date: 2020-01-15T09:00:00-04:00
 excerpt: This week we talk to Gatsby learning team member Kyle Gill on how he became a web developer, and how you can apply what Kyle learned on his journey to your own job search and career.
 author: Lee Warrick &amp; Eddie Otero
-tags: ['Kyle Gill', 'Gatsby', 'React', 'Interviews']
+tags: ['kyle gill', 'gatsby', 'react', 'interviews']
 showLength: 1:33:09
 fileUrl: 035_TechJr_KyleGill.mp3
 fileSize: 109.7

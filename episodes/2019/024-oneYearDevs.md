@@ -3,7 +3,7 @@ title: "We've Been Developers for One Year!"
 date: 2019-10-09T08:15:00-04:00
 excerpt: "Lee and Eddie are celebrating their one year anniversaries in the tech industry! What have they learned, what surprised them, and what advice would they give their past selves?"
 author: Lee Warrick and Edwin Otero
-tags: ['Career Advice']
+tags: ['career advice']
 showLength: 1:15:31
 fileUrl: 024_TechJr_OneYearDevs.mp3
 fileSize: 73.1

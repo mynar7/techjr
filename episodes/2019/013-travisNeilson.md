@@ -3,7 +3,7 @@ title: 'Travis Neilson talks UX/UI and the Design Process'
 date: 2019-07-24T11:00:00-04:00
 excerpt: "What is UX/UI? Is there a pseudo-code process for design? Google Search Designer Travis Neilson joins us to answer these questions and more!"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Travis Neilson', 'Design', 'UX/UI', 'Music']
+tags: ['interviews', 'travis neilson', 'design', 'ux', 'ui', 'music']
 showLength: 1:57:27
 fileUrl: 013_TechJr_TravisNeilson.mp3
 fileSize: 109.6

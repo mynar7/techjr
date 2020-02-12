@@ -3,7 +3,7 @@ title: "Recruiter Mike Torres shares Job-Search Strategies and Secrets"
 date: 2019-08-21T09:00:00-04:00
 excerpt: "Ever wondered what recruiters do or how they operate? We did. Mike Torres wants to transition to a developer career and was willing to take us behind the curtain of the recruiting world!"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Resumes', "Getting Hired", "Salary Negotiations", 'Mike Torres']
+tags: ['interviews', 'resumes', "getting hired", "salary negotiations", 'mike torres']
 showLength: 1:20:21
 fileUrl: 017_TechJr_MikeTorres.mp3
 fileSize: 73.3

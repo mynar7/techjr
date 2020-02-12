@@ -3,7 +3,7 @@ title: 'Chris Biscardi introduces Gatsby Themes'
 date: 2019-08-07T10:00:00-04:00
 excerpt: "Chris Biscardi joins us this week to talk about Gatsby Themes, MDX, consulting, why companies should hire juniors, and Rocket League"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Chris Biscardi', 'Gatsby', 'React']
+tags: ['interviews', 'chris biscardi', 'gatsby', 'react']
 showLength: 1:11:01
 fileUrl: 015_TechJr_ChrisBiscardi_v2.mp3
 fileSize: 97.5

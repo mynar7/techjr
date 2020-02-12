@@ -3,7 +3,7 @@ title: "UX Microinteractions and Animations with Jenell Pizarro"
 date: 2019-09-25T12:00:00-04:00
 excerpt: "Jenell Pizarro is a local Orlando developer from humble boot camp origins that now leads her own team of front-end developers. We talk to her about her story, community involvement, and UX Microinteractions!"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Animations', 'UX/UI', 'Design', 'Jenell Pizarro']
+tags: ['interviews', 'animations', 'ux', 'ui', 'design', 'jenell pizarro']
 showLength: 1:09:24
 fileUrl: 022_TechJr_JenellPizarro.mp3
 fileSize: 73.6

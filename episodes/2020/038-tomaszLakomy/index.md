@@ -3,7 +3,7 @@ title: Learning how to write front-end tests with Tomasz Łakomy
 date: 2020-02-05T10:00:00-05:00
 excerpt: Front-end testing is a notoriously difficult subject to study, so we got a notorious teacher. This week senior front-end engineer Tomasz Łakomy walks us through the basics of front-end testing and explains the importance of writing tests for your code.
 author: Lee Warrick &amp; Eddie Otero
-tags: ['React', 'Testing', 'jQuery', "Interviews", "Tomasz Łakomy"]
+tags: ['react', 'testing', 'jquery', "interviews", "tomasz lakomy"]
 showLength: 1:11:00
 fileUrl: 038_TechJr_TomaszLakomy.mp3
 fileSize: 75.5

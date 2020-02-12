@@ -3,7 +3,7 @@ title: 'Getting into Gatsby with Amberley Romo'
 date: 2019-07-10T10:00:00-04:00
 excerpt: "Gatsby Team Member Amberley Romo joins us to tell her story and explain why you should try Gatsby! We also talk about the need for diversity in tech, and the struggles of being a Junior Developer"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Gatsby', 'Women in Tech', 'Diversify Tech', 'Amberley Romo', 'React']
+tags: ['interviews', 'gatsby', 'women in tech', 'diversify tech', 'amberley romo', 'react']
 showLength: 1:26:37
 fileUrl: 011_TechJr_AmberleyRomo.mp3
 fileSize: 85.9

@@ -3,7 +3,7 @@ title: "What do CTOs want from developers? David Ledgerwood and Megan Fister Sha
 date: 2019-10-16T08:15:00-04:00
 excerpt: "Do the terms \"Passion\" and \"Culture Fit\" make you confused and slightly annoyed when you ask what an employer is looking for in a new hire? We dig into what those things mean and what hiring managers really want in a candidate. Then, Ledge and Megan tell us how to convey those things through our resumes and Linkedin profiles."
 author: Lee Warrick and Edwin Otero
-tags: ['Career Advice', 'Resumes', 'Interviews', 'LinkedIn', 'Getting Hired']
+tags: ['career advice', 'resumes', 'interviews', 'linkedin', 'getting hired']
 showLength: 1:34:04
 fileUrl: 025_TechJr_ledgeAndMegan.mp3
 fileSize: 92.4

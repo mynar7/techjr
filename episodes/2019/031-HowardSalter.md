@@ -3,7 +3,7 @@ title: "Coder to Soldier and back! Howard Salter shares his wisdom as a veteran 
 date: 2019-11-27T09:00:00-04:00
 excerpt: "Eddie's Boot Camp instructor Howard Salter joins us this week to talk about his story as a developer turned soldier turned developer, as well as his experiences teaching boot camp students in-person and online."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Bootcamp', 'Howard Salter', 'Career Advice']
+tags: ['interviews', 'bootcamp', 'howard salter', 'career advice']
 showLength: 1:19:11
 fileUrl: 031_TechJr_HowardSalter.mp3
 fileSize: 82.8

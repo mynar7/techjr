@@ -315,6 +315,7 @@ audio
 .tags
   .tag
     font-weight 400
+    text-transform capitalize
 .tags-container, .tags-container>div, ul.tags
   display flex
   flex-wrap wrap

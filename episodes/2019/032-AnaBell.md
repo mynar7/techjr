@@ -3,7 +3,7 @@ title: "Dr. Ana Bell joins us to talk about teaching Python at MIT to new progra
 date: 2019-12-04T09:00:00-04:00
 excerpt: "Author and Lecturer Dr. Ana Bell tells us all about teaching python to college students that have never coded before, as well as how she would approach teaching her parents to program."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Python', 'Ana Bell', 'Beginners']
+tags: ['interviews', 'python', 'ana bell', 'beginners']
 showLength: 1:03:02
 fileUrl: 032_TechJr_AnaBell.mp3
 fileSize: 58.9

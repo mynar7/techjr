@@ -3,7 +3,7 @@ title: "Irma Mesa talks about Product Management and Remote Work"
 date: 2019-11-13T09:00:00-04:00
 excerpt: "This week Irma Mesa joins us to talk about working from home, product management, and giving back to the community. Listen to her story and learn about how she helps her company make their best product possible... from home!"
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'Product Management', 'Irma Mesa', 'Working Remote']
+tags: ['interviews', 'product management', 'irma mesa', 'working remote']
 showLength: 1:12:00
 fileUrl: 029_TechJr_IrmaMesa.mp3
 fileSize: 73.6

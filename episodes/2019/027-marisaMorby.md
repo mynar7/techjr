@@ -3,7 +3,7 @@ title: "Prototyping, Product Management, and Conference Proposals with Marisa Mo
 date: 2019-10-30T10:30:00-04:00
 excerpt: "The only thing developers are worse at than pseudocoding is prototyping. Marisa Morby walks us through designing our apps and tells us how she approaches user research both at Gatsby and for personal projects. Then we talk about public speaking and Terry Pratchett."
 author: Lee Warrick and Edwin Otero
-tags: ['Interviews', 'UX', 'Product Management', 'Marisa Morby', 'Prototyping']
+tags: ['interviews', 'ux', 'product management', 'marisa morby', 'prototyping']
 showLength: 1:23:26
 fileUrl: 027_TechJr_MarisaMorby.mp3
 fileSize: 89.8
