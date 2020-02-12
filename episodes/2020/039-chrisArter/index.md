@@ -51,7 +51,6 @@ This week we listen to Chris' amazing story of learning to code during the great
 * 1:00:00 - Approach for learning the 20%
 * 1:01:58 - Quantity over quality
 * 1:07:39 - Project ideas
-* 1:09:30 - Youtube channel (couldn’t find it)
 * 1:10:39 - Nerd Minute
 * 1:10:51 - Detroit Become Human
 * 1:15:08 - Diablo
