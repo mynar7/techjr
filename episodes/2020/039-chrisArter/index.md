@@ -42,8 +42,8 @@ This week we listen to Chris' amazing story of learning to code during the great
 * 24:29 - APUs
 * 26:50 - Laravel
 * 29:47 - What is MVVM
-* 34:13 - Opinionated not opinionated
-* 36:39 - TAG Arrow
+* 34:13 - Opinionated vs un-opinionated
+* 36:39 - Working at a startup (TAG Aero)
 * 41:18 - Leaving to become a fulltime dev
 * 47:22 - First day
 * 52:25 - Learning quickly
