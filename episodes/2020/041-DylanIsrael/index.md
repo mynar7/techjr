@@ -1,6 +1,6 @@
 ---
 title: TypeScript and Side Projects with Dylan Israel
-date: 2020-02-25T09:00:00-04:00
+date: 2020-02-26T09:00:00-04:00
 excerpt: Dylan Israel joins us this week to share TypeScript tips, lessons learned in building a following, and how to manage multiple side projects.
 author: Lee Warrick &amp; Eddie Otero
 tags: ['dylan israel', 'typescript', 'interviews']
