@@ -1,7 +1,7 @@
 ---
 title: Why you should use React Native with Jamon Holmgren
 date: 2020-03-04T11:30:00-04:00
-excerpt: Jamon Holmgren.
+excerpt: React Native is a powerful tool that lets you write JavaScript/React to create Mobile apps. RN expert Jamon Holmgren joins us to explain how to learn React Native.
 author: Lee Warrick &amp; Eddie Otero
 tags: ['jamon holmgren', 'react', 'react native', 'interviews']
 showLength: 1:10:53
