@@ -5,7 +5,7 @@ excerpt: This week we're talking all about personal finance with CFP Lucas Casar
 author: Lee Warrick &amp; Eddie Otero
 tags: ['lucas casarez', 'finance', 'budget', 'interviews']
 showLength: 1:27:45
-fileUrl: 044_TechJr_LucasCasarez.mp3
+fileUrl: 045_TechJr_LucasCasarez.mp3
 fileSize: 75.7
 ---
 
