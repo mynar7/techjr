@@ -1,6 +1,6 @@
 ---
 title: Refactoring your finances with Lucas Casarez
-date: 2020-03-25T09:00:00-04:00
+date: 2020-03-25T16:00:00-04:00
 excerpt: This week we're talking all about personal finance with CFP Lucas Casarez. Lots of developers know plenty about technology, but how much do you know about budgeting, investments, and paying off debt? Lucas walks us through some specific advice on how you can give your self financial peace of mind.
 author: Lee Warrick &amp; Eddie Otero
 tags: ['lucas casarez', 'finance', 'budget', 'interviews']
