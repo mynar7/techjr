@@ -11,7 +11,7 @@ fileSize: 94.7
 
 ## Authentication is a bit of a rabbit hole 🐰🕳
 
-Sam Julien joins us this week to talk all about how to stay productive while dealing with authentication. It's a common time sink for junior devs and can be especially daunting in the JavaScript realm where there's no laravel/rails framework to handle things like auth. Devs are often left piecing together their own auth solution.
+[Sam Julien](https://samjulien.com) joins us this week to talk all about how to stay productive while dealing with authentication. It's a common time sink for junior devs and can be especially daunting in the JavaScript realm where there's no laravel/rails framework to handle things like auth. Devs are often left piecing together their own auth solution.
 
 Sam also knows a thing or two about GraphQL, so we dig into what it is and how you can use it!
 
