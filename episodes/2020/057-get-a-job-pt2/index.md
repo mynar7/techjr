@@ -3,7 +3,7 @@ title: "Bootcamps v Self-Taught v College"
 date: 2020-08-07T16:30:00-04:00
 excerpt: "Part 2 of Breaking into the Tech Industry: How should you learn? Does it matter if you do a bootcamp instead of getting a college degree?"
 author: Lee Warrick &amp; Eddie Otero
-tags: ["series", "breaking into the tech industry", "getting hired", "resumes"]
+tags: ["series", "breaking into the tech industry", "getting hired", "bootcamps"]
 showLength: 41:51
 fileUrl: 057_TechJr_GetAJob_pt2.mp3
 fileSize: 47.1
