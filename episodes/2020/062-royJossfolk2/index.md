@@ -3,7 +3,7 @@ title: Roy Jossfolk returns to talk SEO for devs
 date: 2020-11-09T17:00:00-04:00
 excerpt: Roy Jossfolk returns this week to talk about practical SEO for developers.
 author: Lee Warrick &amp; Eddie Otero
-tags: ["roy jossfolk", "seo", "freelance"]
+tags: ["roy jossfolk", "seo", "freelancing", "interviews"]
 showLength: 1:14:54
 fileUrl: 062_TechJr_RoyJossfolk2.mp3
 fileSize: 102.9
