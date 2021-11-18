@@ -1,12 +1,15 @@
 <template lang="pug">
-    div
-        progress(:value="progressValue" max='1' @click="setTime" ref="progressBar")
-        .controls
-            button(@click="play") {{ buttonText }}
-            span {{current}} / {{duration}}
-        .download
-            a(:href="audioRef.src" download target="__BLANK") Download Link
-            span (Right click, "Save Link As")
+div(@mouseleave="() => handleShowVolume(false)")
+    progress(:value="progressValue" max='1' @click="setTime" ref="progressBar")
+    .controls
+        button(@click="play") {{ buttonText }}
+        .volumeControls 
+            label(for="volume" tabindex="0" @click="() => handleShowVolume(!showVolume)" @focus="() => handleShowVolume(true)") {{volumeIcon}}
+            input(v-show="showVolume" @blur="() => handleShowVolume(false)" type="range" id="volume" min="0" max="100" v-model="volume" ref="volumeSlider")
+        span {{current}} / {{duration}}
+    .download
+        a(:href="audioRef.src" download target="__BLANK") Download Link
+        span (Right click, "Save Link As")
 </template>
 
 <script>
@@ -16,16 +19,24 @@ export default {
             duration: '00:00:00',
             current: '00:00:00',
             progressValue: 0,
-            buttonText: 'PLAY'
+            volume: 50,
+            showVolume: false,
+            buttonText: 'LOADING',
         }
     },
     props: [
         'audioRef'
     ],
     mounted() {
+        const savedVolume = window.localStorage.getItem('volume')
+        if (savedVolume) {
+            this.volume = +savedVolume
+            this.audioRef.volume = +savedVolume / 100
+        }
         let retries = 0
         const checkReady = () => {
             if (this.audioRef.readyState === 4) {
+                this.buttonText = 'PLAY'
                 this.current = this.formatTime(this.audioRef.currentTime)
                 this.duration = this.formatTime(this.audioRef.duration)
                 this.audioRef.ontimeupdate = () => {
@@ -44,17 +55,26 @@ export default {
         }
         checkReady()
     },
-    // watch: {
-    //     'audioRef.readyState'(value) {
-    //         debugger
-    //         if (value === 4) {
-    //             this.current = this.formatTime(this.audioRef.currentTime)
-    //             this.duration = this.formatTime(this.audioRef.duration)
-    //         }
-    //     }
-    // },
+    watch: {
+        volume(newVolume) {
+            this.audioRef.volume = newVolume / 100
+            window.localStorage.setItem('volume', newVolume)
+        }
+    },
+    computed: {
+        volumeIcon() {
+            return this.volume >= 80
+            ? "🔊"
+            : this.volume < 80 && this.volume >= 30
+            ? "🔉"
+            : this.volume < 30 && this.volume > 0
+            ? "🔈"
+            : "🔇"
+        }
+    },
     methods: {
         play() {
+            if(this.buttonText === 'LOADING') return
             if (this.audioRef.paused) {
                 this.audioRef.play()
                 this.buttonText = 'PAUSE'
@@ -63,11 +83,13 @@ export default {
                 this.buttonText = 'PLAY'
             }
         },
+        handleShowVolume(value) {
+            this.showVolume = value
+        },
         setTime(e) {
             const clickLocation = e.pageX - this.$refs.progressBar.offsetLeft
             const totalWidth = this.$refs.progressBar.offsetWidth
             const clickPercentage = clickLocation / totalWidth
-            // console.log(clickPercentage)
             this.progressValue = clickPercentage
             this.audioRef.currentTime = clickPercentage * this.audioRef.duration
         },
@@ -107,10 +129,39 @@ progress[value]::-webkit-progress-value
 
 .controls
     display flex
-    justify-content space-between
+    justify-content flex-end
     align-items center
+    flex-wrap wrap
+    .volumeControls
+        display flex
+        align-items center
+        input
+            margin 0
+            appearance none
+            border-radius 5px
+            height 5px
+            background var(--secondary)
+            opacity 0.8
+            transition opacity 200ms
+            &:hover, &:focus
+                opacity 1
+            &::-webkit-slider-thumb
+                -webkit-appearance none
+                appearance none
+                width 10px
+                height 20px
+                border-radius 5px
+                background var(--primary)
+            &::-moz-range-thumb
+                -webkit-appearance none
+                appearance none
+                width 10px
+                height 20px
+                border-radius 5px
+                background var(--primary)
 
 button
+    margin-right auto
     padding 10px
     width 100px
     border none
