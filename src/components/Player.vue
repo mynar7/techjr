@@ -5,7 +5,7 @@ div(@mouseleave="() => handleShowVolume(false)")
         button(@click="play") {{ buttonText }}
         .volumeControls 
             label(for="volume" tabindex="0" @click="() => handleShowVolume(!showVolume)" @focus="() => handleShowVolume(true)") {{volumeIcon}}
-            input(v-show="showVolume" @blur="() => handleShowVolume(false)" type="range" id="volume" min="0" max="100" v-model="volume" ref="volumeSlider")
+            input(v-show="showVolume" @blur="() => handleShowVolume(false)" type="range" id="volume" min="0" max="100" v-model="volume")
         span {{current}} / {{duration}}
     .download
         a(:href="audioRef.src" download target="__BLANK") Download Link
