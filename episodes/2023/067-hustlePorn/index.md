@@ -1,6 +1,6 @@
 ---
 title: Stop Glorifying Hustle Porn
-date: 2022-05-21T12:00:00-04:00
+date: 2023-05-21T12:00:00-04:00
 excerpt: Hustle Porn is the glorification of working yourself to death. Stop it!
 author: Lee Warrick &amp; Eddie Otero
 tags: ['career advice']
