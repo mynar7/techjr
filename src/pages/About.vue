@@ -7,11 +7,10 @@
       h2 Hosts
       .hosts
         .bio
-          a.link(href="https://leewarrick.com")
+          div 
             img.host-pic(src='../assets/images/lee.jpg')
             strong.host-name Lee Warrick
-          p Lee Warrick is a Front-end Developer with Realtruck.com by day,
-            |  and by night the Organizer of Orlando’s Junior Developer Meetup.
+          p Lee Warrick is a software engineer and educator with experience across the stack in web development.
             |  Being a Career-Changer himself, Lee has made it his mission to pay-forward all of the help he received as a new developer ten-fold, and improve the lives of new developers in any way he can.
           .social-icons
             a(href="https://www.linkedin.com/in/lee-warrick/")
@@ -19,7 +18,7 @@
             a(href="https://twitter.com/leewarrickjr")
               img.social(src='../assets/images/twitter.png')
         .bio
-          a.link(href="https://edii698.github.io/resume/")
+          div
             img.host-pic(src='../assets/images/eddie.jpg')
             strong.host-name Edwin Otero
           p Eddie Otero is a Front-end Developer for Capco and former designer of 15 years.

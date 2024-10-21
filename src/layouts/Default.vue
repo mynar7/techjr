@@ -22,18 +22,10 @@
 
       p Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
         br
-        | Sign up for our&nbsp;
-        a.link.subscribe(
-          href="https://tinyletter.com/leewarrick"
-          @focus="newsletterText = 'YAAAAAAAAAS!'"
-          @blur="newsletterText = 'NEWSLETTER'"
-        )
-          strong {{newsletterText}}
 
       p.home-links.card
         g-link.link(to="/") Episodes
         g-link.link(to="/about") About
-        g-link.link.new(to="/support") Support
 
     slot
 </template>
@@ -63,11 +55,6 @@ export default {
     Overcast,
     PocketCasts,
     Twitter,
-  },
-  data() {
-    return {
-      newsletterText: "NEWSLETTER"
-    }
   },
 }
 </script>
